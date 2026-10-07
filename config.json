@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "nombre": "Sofía Strafile",
+    "negocio": "[Qué es, en pocas palabras — «Nutrición · Rosario», «Pescadería y rotisería»]",
+    "rubro": "Asesora de imagen y colorimetría · Online · Argentina",
+    "fecha": "7 de octubre de 2026",
+    "validez": "6 de noviembre de 2026",
+    "url": "sin sitio propio; su presencia es https://www.instagram.com/sofiastrafile/",
+    "presenciaUrl": "https://www.instagram.com/sofiastrafile/",
+    "presenciaEtiqueta": "https://www.instagram.com/sofiastrafile/"
+  },
+  "author": {
+    "nombre": "Lisandro Cacciatore",
+    "email": "lisandrocacciatore@gmail.com"
+  },
+  "branding": {
+    "colorPrimario": "#[hex de la identidad del cliente]"
+  },
+  "costoMensual": "AR$ 240.000",
+  "baseCalculo": "1 consulta semanal que no se recupera, a AR$ 60.000 (la tarifa que publicás en tu sitio)",
+  "comparativos": 7,
+  "fechasPermitidas": [],
+  "modelo": {
+    "url": "[URL pública del sitio nuevo]",
+    "titulo": "Página modelo",
+    "bajada": "[Una línea: qué se ve ahí]",
+    "caption": "Nuevo — [mejora concreta respecto de hoy]",
+    "cta": "Ver la página modelo"
+  },
+  "salida": {
+    "slug": "sofia-strafile"
+  },
+  "verificacionPDF": {
+    "datos": [
+      "[Dato verificado del cliente que debe sostenerse en el PDF]"
+    ],
+    "hojas": [
+      5,
+      14
+    ]
+  },
+  "propuesta": {
+    "saludo": "[saludo: redactar en segunda persona, sin muletillas]",
+    "heroTitulo": "[heroTitulo: redactar en segunda persona, sin muletillas]",
+    "heroLead": "[heroLead: redactar en segunda persona, sin muletillas]",
+    "comparativoTitulo": "[comparativoTitulo: redactar en segunda persona, sin muletillas]",
+    "costoNota": "[costoNota: redactar en segunda persona, sin muletillas]",
+    "propuestaTitulo": "[propuestaTitulo: redactar en segunda persona, sin muletillas]",
+    "propuestaIntro": "[propuestaIntro: redactar en segunda persona, sin muletillas]",
+    "baseLabel": "[baseLabel: redactar en segunda persona, sin muletillas]",
+    "preguntasTitulo": "[preguntasTitulo: redactar en segunda persona, sin muletillas]",
+    "cierreTitulo": "[cierreTitulo: redactar en segunda persona, sin muletillas]",
+    "cierreBody": "[cierreBody: redactar en segunda persona, sin muletillas]",
+    "conversionTitulo": "[conversionTitulo: redactar en segunda persona, sin muletillas]"
+  },
+  "callout": {
+    "label": "Costo de no hacer nada",
+    "strong": "[Una línea con el costo, sin repetir un número que ya esté en el cuadro]",
+    "note": "[De dónde sale el número y qué queda marcado [INFERIBLE]]",
+    "excepcionTarifa": false
+  },
+  "conversion": {
+    "tipoCambio": 1551.9,
+    "tipoCambioFecha": "4 de octubre de 2026",
+    "tipoCambioFuente": "dolarapi.com (dólar bolsa, venta)",
+    "tipoCambioDetalle": "USD 1 = AR$ 1.551,90",
+    "tarifaSesion": 60000,
+    "tarifaSesionFuente": "liclisandrolagos.com — sección Precios (publicada por el propio profesional)",
+    "unidad": "sesiones",
+    "referenciaEtiqueta": "la tarifa que publicás",
+    "costoMensualNum": 240000,
+    "cierre": "<p class=\"evsrc\">El pack completo ({total}) se paga con {unidades} {unidad}: menos de lo que facturás en tres semanas trabajando a una consulta por día. Y si el sitio recupera una sola consulta por semana, la base de {base} se paga en {recupero} meses.</p>\n    <p class=\"evsrc\">[INFERIBLE] La recuperación depende de tu agenda real, que no veo. El número de {unidad} equivalentes, en cambio, es aritmética sobre datos que vos publicás.</p>"
+  },
+  "hallazgos": [
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "alta",
+      "titulo": "[Titular para el INFORME. Máx. 12 palabras, sin coloquialismos]",
+      "tituloCorto": "[Titular para la PROPUESTA. Corto y distinto del de arriba]",
+      "descripcion": "[Detalle largo, solo para el informe. Empieza con el contexto medido]",
+      "resumen": "[Una línea para la propuesta. Empieza con el NÚMERO, no con contexto]",
+      "impacto": "[Qué significa, redactado para el informe]",
+      "significa": "[Qué significa, redactado distinto para la propuesta]",
+      "propongo": "[Módulo Mx o acción concreta. No repite el dato]"
+    }
+  ],
+  "comparativo": {
+    "titulo": "",
+    "intro": "[De dónde salió el set de comparables y cómo se midió]",
+    "columnas": [
+      "Sitio",
+      "Estado",
+      "Idioma",
+      "Descripción en Google",
+      "Datos estructurados",
+      "Mapa del sitio",
+      "Botón de WhatsApp"
+    ],
+    "filas": [
+      {
+        "cliente": false,
+        "celdas": [
+          "[Completa acá]",
+          "200 OK",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "bullets": [],
+    "kpis": [
+      {
+        "valor": "0",
+        "label": "[máx. 8 palabras]"
+      },
+      {
+        "valor": "0",
+        "label": "[máx. 8 palabras]"
+      },
+      {
+        "valor": "0",
+        "label": "[máx. 8 palabras]"
+      }
+    ],
+    "nota": "[Unidad de cada columna. Sin celdas ambiguas]",
+    "medidoEl": "[fecha]",
+    "mostrarEnInforme": true
+  },
+  "modulos": [
+    {
+      "id": "m1",
+      "code": "M1",
+      "icon": "chat",
+      "title": "[Nombre del módulo M1]",
+      "price": 80,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    },
+    {
+      "id": "m2",
+      "code": "M2",
+      "icon": "notifications_active",
+      "title": "[Nombre del módulo M2]",
+      "price": 120,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    },
+    {
+      "id": "m3",
+      "code": "M3",
+      "icon": "calendar_month",
+      "title": "[Nombre del módulo M3]",
+      "price": 100,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    },
+    {
+      "id": "m4",
+      "code": "M4",
+      "icon": "search",
+      "title": "[Nombre del módulo M4]",
+      "price": 100,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    },
+    {
+      "id": "m5",
+      "code": "M5",
+      "icon": "receipt_long",
+      "title": "[Nombre del módulo M5]",
+      "price": 60,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    },
+    {
+      "id": "m6",
+      "code": "M6",
+      "icon": "edit_note",
+      "title": "[Nombre del módulo M6]",
+      "price": 90,
+      "short": "[Una línea: qué problema resuelve]",
+      "bullets": [
+        "[Bullet, máx. 4 por módulo]"
+      ]
+    }
+  ],
+  "nextSteps": [
+    "[Próximo paso concreto. Máx. 4]"
+  ],
+  "preguntasAbiertas": [
+    "[Qué necesitás del cliente para arrancar]"
+  ],
+  "peso": {
+    "medidoEl": "4 de octubre de 2026",
+    "antes": {
+      "total_kb": 3555.8,
+      "archivos": 18,
+      "html_kb": 26.4
+    },
+    "despues": {
+      "total_kb": 724.6,
+      "archivos": 5,
+      "html_kb": 48.4
+    },
+    "comando": "python scripts/pesar.py <url>"
+  },
+  "imagenes": {
+    "antes": "00-auditoria/capturas/antes-portada.jpg",
+    "despues": "02-sitio/capturas/despues-portada.jpg",
+    "captionAntes": "Hoy — template de plataforma, sin WhatsApp, sin descripción para Google",
+    "captionDespues": "Propuesta — sitio propio, tus fotos reales, tu habilitación como texto"
+  },
+  "base": {
+    "precio": 350,
+    "items": [
+      "[Qué incluye la base. Una promesa por línea, verificable contra el sitio]",
+      "[Si promete N secciones, el sitio nuevo tiene que tener N]"
+    ]
+  },
+  "sinIncluir": [
+    "[Qué no incluye la propuesta. Máx. 5 ítems]"
+  ],
+  "alcance": [
+    "✓ [Lo que sí se midió]",
+    "✗ [Lo que no se pudo medir, y por qué]"
+  ]
+}

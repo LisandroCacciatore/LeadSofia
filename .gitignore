@@ -1,0 +1,19 @@
+# Artefactos de trabajo, no entregables
+__pycache__/
+*.pyc
+.chrome-tmp/
+*.txt.tmp
+
+# dist/ se arma en cada deploy (scripts/armar-dist.py). No se versiona.
+dist/
+
+# Guion de contacto: es material de trabajo, no forma parte de lo que se publica.
+00-auditoria/mensajes-para-enviar.md
+
+# Los PDF que publica el cliente (su carta, su catálogo) son insumos, no entregables:
+# pesan decenas de MB y son material suyo. Se citan por peso y páginas en la evidencia.
+*.pdf
+!01-propuesta/*.pdf
+!00-auditoria/informe*.pdf
+
+# El informe y la propuesta en PDF SÍ son entregables: no se ignoran (ver arriba).

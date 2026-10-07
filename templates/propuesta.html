@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Propuesta — {{NOMBRE_CLIENTE}}</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Propuesta de sitio nuevo para {{NOMBRE_CLIENTE}}, con la evidencia medida.">
+<style>
+{{BRAND_CSS}}
+/* ---------- El sitio nuevo, mostrado antes que el problema (§3.4) ---------- */
+.shot { border:1px solid var(--line-default); border-radius:var(--radius-lg);
+  overflow:hidden; margin:1rem 0; background:var(--surface-default); }
+/* §9.4: toda captura lleva epígrafe — izquierda «Hoy — …», derecha «Nuevo — …». */
+.shot-cap { font-size:var(--fs-sm); color:var(--ink-muted); margin:.5rem 0 0; }
+
+/* ---------- Índice de la propuesta ---------- */
+.toc-prop { list-style:none; counter-reset:toc; margin:0; padding:0;
+  columns:2; column-gap:2.5rem; }
+.toc-prop li { counter-increment:toc; break-inside:avoid; margin:0 0 .45rem; }
+.toc-prop a { display:flex; gap:.6rem; text-decoration:none; color:var(--ink-default);
+  border-bottom:1px solid var(--line-default); padding:.35rem 0; }
+.toc-prop a::before { content:counter(toc,decimal-leading-zero); color:var(--ink-muted);
+  font-variant-numeric:tabular-nums; flex:0 0 auto; }
+.toc-prop a:hover { border-bottom-color:var(--brand-default); }
+@media (max-width:700px){ .toc-prop { columns:1; } }
+
+/* ---------- Glosario SEO / GEO / AEO ---------- */
+.grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin:1rem 0; }
+@media (max-width:900px){ .grid-3 { grid-template-columns:1fr; } }
+.glos-card { border:1px solid var(--line-default); border-radius:var(--radius-md);
+  padding:1rem; background:var(--surface-default); }
+.glos-sigla { font-family:var(--font-mono,monospace); font-size:var(--fs-sm);
+  letter-spacing:.08em; text-transform:uppercase; color:var(--brand-default); }
+.glos-card h3 { font-size:1rem; margin:.35rem 0 .5rem; }
+.glos-card p { font-size:var(--fs-sm); margin:0; }
+
+/* ---------- Por etapas ---------- */
+.etapa { border-left:2px solid var(--line-default); padding:.15rem 0 .15rem 1rem;
+  margin-bottom:1rem; }
+.etapa-cuando { font-family:var(--font-mono,monospace); font-size:var(--fs-sm);
+  letter-spacing:.08em; text-transform:uppercase; color:var(--ink-muted); }
+.etapa h3 { font-size:1.05rem; margin:.35rem 0 .35rem; }
+.etapa p { margin:0; }
+
+/* ---------- Add-on recomendado ---------- */
+.module-card.rec { border-color:var(--brand-default);
+  box-shadow:0 0 0 1px var(--brand-default) inset; }
+.module-flag { display:inline-block; margin-left:.5rem; padding:.1rem .45rem;
+  border-radius:999px; font-family:var(--font-mono,monospace); font-size:11px;
+  letter-spacing:.06em; text-transform:uppercase; background:var(--brand-default);
+  color:#fff; vertical-align:middle; }
+.rec-legend { font-size:var(--fs-sm); color:var(--ink-muted); margin:.5rem 0 1.25rem; }
+
+/* ---------- La tabla de colegas pasa a bullets en mobile (§6.2) ---------- */
+@media (max-width:700px){
+  .compare-table thead { display:none; }
+  .compare-table, .compare-table tbody, .compare-table tr, .compare-table td { display:block; width:100%; }
+  .compare-table tr { border:1px solid var(--line-default); border-radius:var(--radius-md);
+    padding:.6rem .8rem; margin-bottom:.6rem; }
+  .compare-table td { border:0; padding:.15rem 0; }
+  .compare-table td:first-child { font-weight:var(--fw-bold); }
+  .compare-table td:not(:first-child)::before { content:attr(data-col) ": "; color:var(--ink-muted); }
+}
+</style>
+</head>
+<body>
+{{HEADER}}
+
+<!-- ══════════════ 1-3 · GANCHO, CONTEXTO Y NÚMEROS ══════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="sec-row">
+      <span class="eyebrow">Propuesta comercial</span>
+      <span class="right">{{FECHA}} · válida hasta el {{VALIDEZ}}</span>
+    </div>
+
+    <div class="hero-grid">
+      <div class="stat-block">
+        <span class="label-mono">{{HERO_STAT_LABEL}}</span>
+        <div class="stat-number">{{HERO_STAT}}</div>
+        <div class="stat-rule"></div>
+        <p class="stat-caption">{{HERO_STAT_CAPTION}}</p>
+      </div>
+      <div class="hero-copy">
+        <h1 class="hero-h1">{{HERO_TITULO}}</h1>
+        <p class="lead">{{HERO_LEAD}}</p>
+      </div>
+    </div>
+
+    {{KPI_HTML}}
+
+    <div class="cta-row">
+      <a class="btn btn-brand" href="#sitio-nuevo">Mirá cómo se vería tu sitio &rarr;</a>
+      <a class="btn btn-light" href="#propuesta">Ver qué propongo</a>
+    </div>
+
+    <div class="hero-divider"></div>
+  </div>
+</section>
+
+<!-- ══════════════ ÍNDICE ══════════════
+     Se arma desde templates/secciones.json (índice): agregar una sección es una
+     línea de datos, no un cambio de plantilla. -->
+<section class="band band--soft" id="indice">
+  <div class="wrap">
+    <span class="eyebrow">Índice de la propuesta</span>
+    <h2 style="font-size:1.25rem;margin:.75rem 0 1rem">Qué encontrás en este documento</h2>
+    {{INDICE_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ 4 · TU SITIO NUEVO (el resultado, primero) ══════════════ -->
+<section class="band band--soft" id="sitio-nuevo">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_sitio-nuevo}}El resultado, antes que el problema</span>
+    <h2 style="font-size:1.5rem;margin-top:.75rem">Tu sitio nuevo</h2>
+    {{SITIO_NUEVO_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ 5 · LO QUE ENCONTRÉ (§5) ══════════════ -->
+<section class="band" id="evidencia">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_evidencia}}Lo que encontré</span>
+    <h2 style="font-size:1.5rem;margin-top:.75rem">{{NUM_HALLAZGOS}} hallazgos medidos</h2>
+    <p>
+      Cada hallazgo va con el número crudo, qué significa para tu trabajo y qué propongo.
+      Lo que no pude medir, lo digo: cada afirmación de este documento se puede reproducir con el comando que tiene al lado.
+    </p>
+    {{HALLAZGOS_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ 6-7 · CONTRA COLEGAS ══════════════ -->
+<section class="band band--soft" id="comparativo">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_comparativo}}Dónde estás parado</span>
+    <h2 style="font-size:1.5rem;margin-top:.75rem">{{COMPARATIVO_TITULO}}</h2>
+    <p>{{COMPARATIVO_INTRO}}</p>
+    {{COMPARATIVO_HTML}}
+    <p class="evsrc">{{COMPARATIVO_NOTA}}</p>
+    <p class="evsrc">{{COMPARATIVO_FUENTE}}</p>
+    <div class="todo" style="margin-top:1.25rem">
+      <strong>Lo que dice esto, en una línea:</strong>
+      <p style="margin:.5rem 0 0">{{COMPARATIVO_CIERRE}}</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 8 · EL NÚMERO QUE SOSTIENE LA PROPUESTA ══════════════ -->
+<section class="band">
+  <div class="wrap wrap--tight">
+    <div class="callout">
+      <div class="callout-label">{{CALLOUT_LABEL}}</div>
+      <div class="callout-strong">{{CALLOUT_STRONG}}</div>
+      <p class="callout-note">{{CALLOUT_NOTE}}</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA INTERMEDIO (§7.3 del spec editorial) ══════════════
+     El lector que ya se convenció no tiene que scrollear hasta el final para actuar. -->
+<section class="band band--soft">
+  <div class="wrap wrap--tight">
+    <p style="font-size:var(--fs-lg);font-weight:600;margin-bottom:1rem">
+      Si querés, hablamos. Y si no, seguí leyendo.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-brand" href="{{MAILTO_LLAMADA}}">Agendar 20 minutos &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 9-11 · BASE, ADD-ONS, ESCENARIOS Y PRECIOS (USD) ══════════════
+     Catálogo único: el cliente ve los {{N_CATALOGO}} add-ons y el suyo viene marcado.
+     El precio de cada uno vive en templates/catalogo.json, no en la config del cliente. -->
+<section class="band" id="propuesta">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_propuesta}}Qué propongo</span>
+    <h2 style="font-size:1.5rem;margin-top:.75rem">{{PROPUESTA_TITULO}}</h2>
+    <p>{{PROPUESTA_INTRO}}</p>
+    <p><strong>Tildá lo que te interese: el total se recalcula solo.</strong></p>
+
+    <div class="base-card">
+      <span class="base-flag">Siempre incluida</span>
+      <div class="base-head">
+        <span class="base-label">{{BASE_LABEL}}</span>
+        <span class="base-price">USD {{PRECIO_BASE}}</span>
+      </div>
+      <ul>
+        {{BASE_ITEMS_HTML}}
+      </ul>
+    </div>
+
+    <p class="rec-legend"><strong>Recomendado para vos</strong> — los {{N_RECOMENDADOS}} que
+       atacan lo que midió tu diagnóstico y vienen marcados. Los demás están a la vista, por si
+       querés sumar alguno. El total arranca en la base: sumá los que quieras.</p>
+
+    <div id="modules"></div>
+
+    <div class="total-bar">
+      <div>
+        <div class="total-label">Total</div>
+        <div class="total-value" id="total">USD {{PRECIO_BASE}}</div>
+        <div class="total-list" id="list">Sitio base</div>
+      </div>
+      <a class="btn btn-light no-print" href="{{MAILTO_ACEPTAR}}">Aceptar propuesta &rarr;</a>
+    </div>
+
+    <h3 style="margin-top:2rem">Escenarios, para no decidir todo de una</h3>
+    <ul>{{ESCENARIOS_HTML}}</ul>
+    <p class="evsrc">{{RECOMENDADO_LINE}}</p>
+    <p class="evsrc">Todos los precios están en dólares. No hay costos mensuales de plataforma ni licencias recurrentes.</p>
+  </div>
+</section>
+
+<!-- ══════════════ FORMA DE PAGO ══════════════ -->
+<section class="band band--soft" id="pago">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_pago}}Cómo se paga</span>
+    <div style="margin-top:.75rem">{{PAGO_HTML}}</div>
+  </div>
+</section>
+
+<!-- ══════════════ POR QUÉ VALE LO QUE VALE ══════════════ -->
+<section class="band" id="valor">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_valor}}Por qué esta propuesta vale lo que vale</span>
+    <div style="margin-top:.75rem">{{VALOR_HTML}}</div>
+  </div>
+</section>
+
+<!-- ══════════════ EN CASTELLANO: SEO, GEO Y AEO ══════════════ -->
+<section class="band band--soft" id="glosario">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_glosario}}En castellano</span>
+    <h2 style="font-size:1.5rem;margin:.75rem 0 1rem">Qué son SEO, GEO y AEO</h2>
+    {{GLOSARIO_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ DECISIÓN TÉCNICA (sólo si el sitio actual es WordPress) ══════════════
+     La banda llega vacía si el config no declara stackActual: no se afirma sobre un
+     stack que no se midió. -->
+<section class="band" id="wordpress">
+  <div class="wrap" id="wordpress-wrap">
+    <span class="eyebrow">{{EB_wordpress}}Decisión técnica</span>
+    <h2 style="font-size:1.5rem;margin:.75rem 0 1rem">Por qué no WordPress</h2>
+    {{NO_WORDPRESS_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ POR ETAPAS ══════════════ -->
+<section class="band band--soft" id="etapas">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_etapas}}Por etapas</span>
+    <h2 style="font-size:1.5rem;margin:.75rem 0 1rem">Cómo lo haría</h2>
+    {{ETAPAS_HTML}}
+  </div>
+</section>
+
+<!-- ══════════════ 12-13 · QUÉ NO INCLUYE / LO QUE NECESITO ══════════════ -->
+<section class="band">
+  <div class="wrap">
+    <div class="wrap--tight">
+      <div>
+        <span class="eyebrow">Lo que necesito de vos</span>
+        <h2 style="font-size:1.25rem;margin-top:.75rem">{{PREGUNTAS_TITULO}}</h2>
+        <div class="todo">
+          <ul>{{PREGUNTAS_HTML}}</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 14 · PRÓXIMO PASO ══════════════ -->
+<section class="band band--soft" id="cierre">
+  <div class="wrap">
+    <span class="eyebrow">{{EB_cierre}}Próximo paso</span>
+    <h2 style="font-size:1.5rem;margin-top:.75rem">{{CIERRE_TITULO}}</h2>
+    <p>{{CIERRE_BODY}}</p>
+    <ol class="step-list">{{PASOS_HTML}}</ol>
+    <div class="cta-row">
+      <a class="btn btn-brand" href="{{MAILTO_LLAMADA}}">Agendar llamada de 20 minutos &rarr;</a>
+      <a class="btn btn-ink" href="{{MAILTO_ACEPTAR}}">Aceptar propuesta &rarr;</a>
+      {{MODELO_CTA_HTML}}
+    </div>
+    <p style="margin-top:1rem"><small>Si no te sirve el mail, respondé este mensaje con «dale, hablemos» y coordinamos.
+       Si preferís que no te escriba más, respondé «no gracias» y no vuelvo a contactarte. Sin insistencia.</small></p>
+  </div>
+</section>
+
+<!-- ══════════════ 15 · LÍMITES ══════════════
+     §3.15 del spec v2.0 pide «Alcance de esta revisión»; §7.2 del spec editorial pide
+     consolidar ahí los tres límites (medido / no medido / no incluido). Un solo bloque
+     cumple las dos cosas: antes eran tres secciones que declaraban límites por separado. -->
+<section class="band" id="alcance">
+  <div class="wrap wrap--tight">
+    <div class="scope">
+      <div class="scope-label">Alcance de esta revisión — límites de este documento</div>
+      <div class="sec-sub">Lo que medí</div>
+      <ul>{{MEDIDO_HTML}}</ul>
+      <div class="sec-sub">Lo que no pude medir</div>
+      <ul>{{NO_MEDIDO_HTML}}</ul>
+      <div class="sec-sub">Lo que no incluye la propuesta</div>
+      <ul>{{SIN_INCLUIR_HTML}}</ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 16 · ACEPTACIÓN Y FIRMA ══════════════ -->
+<section class="band band--soft" id="aceptacion">
+  <div class="wrap wrap--tight">
+    <span class="eyebrow">{{EB_aceptacion}}Aceptación</span>
+    <h2 style="font-size:1.25rem;margin-top:.75rem">Si estás de acuerdo, arrancamos</h2>
+    <p>
+      Con que me respondas «de acuerdo» ya alcanza para empezar: cargamos tus datos reales
+      y publicamos el sitio en tu dominio. Si querés dejarlo firmado, imprimí esta página.
+    </p>
+    <div class="sig-grid">
+      <div class="sig-col">
+        <div class="sig-role">Por el consultor</div>
+        <div class="sig-line"></div>
+        <div class="sig-name">{{AUTHOR_NOMBRE}}</div>
+        <div class="sig-detail">{{AUTHOR_EMAIL}}</div>
+      </div>
+      <div class="sig-col">
+        <div class="sig-role">Por el cliente</div>
+        <div class="sig-line"></div>
+        <div class="sig-name">{{NOMBRE_CLIENTE}}</div>
+        <div class="sig-detail">Aclaración y firma</div>
+        <div class="sig-detail">Fecha: ____ / ____ / ________</div>
+      </div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-ink" href="{{MAILTO_ACEPTAR}}">Aceptar propuesta &rarr;</a>
+    </div>
+    <p class="evsrc" style="margin-top:1.5rem"><strong>Condiciones generales.</strong>
+       Esta propuesta es válida hasta el {{VALIDEZ}}. {{CONDICIONES}}</p>
+  </div>
+</section>
+
+{{FOOTER}}
+
+<script>
+  var BASE = {{PRECIO_BASE}};
+  var MODULES = {{MODULOS_JSON}};
+  var selected = {};
+
+  function money(n) { return 'USD ' + n; }
+
+  function render() {
+    var html = '';
+    MODULES.forEach(function (m) {
+      var flag = m.recomendado ? '<span class="module-flag">Recomendado</span>' : '';
+      html += '<div class="module-card' + (m.recomendado ? ' rec' : '') + '" data-id="' + m.id + '">' +
+                '<div class="module-head">' +
+                  '<div>' +
+                    '<div class="module-code">' + m.code + '</div>' +
+                    '<h3 class="module-title">' + m.title + flag + '</h3>' +
+                  '</div>' +
+                  '<span class="module-price">+ USD ' + m.price + '</span>' +
+                '</div>' +
+                '<p class="module-short">' + m.short + '</p>' +
+                '<ul class="module-bullets">' +
+                  m.bullets.map(function (b) { return '<li>' + b + '</li>'; }).join('') +
+                '</ul>' +
+              '</div>';
+    });
+    document.getElementById('modules').innerHTML = html;
+
+    Array.prototype.forEach.call(document.querySelectorAll('.module-card'), function (el) {
+      el.addEventListener('click', function () {
+        var id = el.getAttribute('data-id');
+        if (selected[id]) { delete selected[id]; } else { selected[id] = true; }
+        sync();
+      });
+    });
+  }
+
+  function sync() {
+    Array.prototype.forEach.call(document.querySelectorAll('.module-card'), function (el) {
+      el.classList.toggle('on', !!selected[el.getAttribute('data-id')]);
+    });
+
+    var total = Number(BASE);
+    var codes = [];
+    MODULES.forEach(function (m) {
+      if (selected[m.id]) { total += Number(m.price); codes.push(m.code); }
+    });
+
+    var totalEl = document.getElementById('total');
+    totalEl.textContent = money(total);
+    totalEl.classList.remove('pulse');
+    void totalEl.offsetWidth;
+    totalEl.classList.add('pulse');
+
+    document.getElementById('list').textContent =
+      codes.length ? 'Base + ' + codes.join(' + ') : 'Sitio base';
+  }
+
+  // La banda de WordPress se saca entera si el motor no inyectó contenido: una
+  // sección con título y nada abajo se lee como un error.
+  var wp = document.getElementById('wordpress');
+  if (wp && !document.getElementById('wordpress-wrap').querySelector('ul')) {
+    wp.parentNode.removeChild(wp);
+  }
+
+  render();
+  // El total arranca en la base, no en el recomendado: el documento aprobado abre con
+  // «la propuesta queda en el sitio base» y verify.py verifica ese contrato. El número
+  // del recomendado se muestra igual, en la línea de escenarios.
+</script>
+</body>
+</html>

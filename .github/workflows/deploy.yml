@@ -1,0 +1,51 @@
+name: Publicar el preview en GitHub Pages
+
+# El repo es la fuente: el workflow arma dist/ desde las piezas ya generadas y
+# verificadas localmente, y publica eso. No regenera nada acá: generar el informe
+# y la propuesta requiere Chrome headless y Pillow, que el runner no tiene.
+# El gate local es ./scripts/generar.sh (generate + verify contra el DOM real).
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Armar dist/ desde las piezas del repo
+        run: python3 scripts/armar-dist.py
+
+      # `enablement: true` — en un repositorio RECIÉN creado, Pages todavía no está
+      # habilitado, y sin esto el deploy muere con «Get Pages site failed … Not Found».
+      # Con el flag, el primer push de cualquier lead nuevo lo habilita solo: sin esto,
+      # cada lead nuevo necesita un paso manual en la web antes de poder publicar.
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
