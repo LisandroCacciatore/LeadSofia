@@ -146,7 +146,7 @@
       "prioridad": "media",
       "titulo": "Tu única página de enlaces trabaja para Linktree",
       "tituloCorto": "3 botones, los 3 a WhatsApp",
-      "descripcion": "El destino del enlace de tu bio son 3 botones (Asesoría de imagen, WhatsApp y Colorimetría), los tres apuntan al mismo WhatsApp, más 3 íconos sociales. No hay precios, ni descripción de servicios, ni forma de dejar un dato. La página cierra ofreciendo Linktree a quien la visita. En el código hay 26 enlaces de afiliados de terceros que no se dibujan en pantalla: van en el payload, no en la página, y los declaro acá para que no se confundan con enlaces tuyos.",
+      "descripcion": "El destino del enlace de tu bio son 3 botones (Asesoría de imagen, WhatsApp y Colorimetría), los tres apuntan al mismo WhatsApp (+54 9 341 615-3151), más 3 íconos sociales. No hay precios, ni descripción de servicios, ni forma de dejar un dato. La página cierra ofreciendo Linktree a quien la visita. En el código hay 26 enlaces de afiliados de terceros que no se dibujan en pantalla: van en el payload, no en la página, y los declaro acá para que no se confundan con enlaces tuyos.",
       "resumen": "3 botones en tu página de enlaces, los 3 al mismo WhatsApp: ningún precio y ningún servicio por escrito.",
       "impacto": "La pantalla que ves como tu casa es una pieza de otra empresa, y encima pesa 4,8 MB para mostrar tres botones.",
       "significa": "No tenés dónde explicar qué hacés, ni dónde que alguien deje su contacto para que le escribas vos.",
