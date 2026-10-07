@@ -59,3 +59,37 @@ bash scripts/generar.sh            # sólo construir, para iterar contenido
 python scripts/generar-sitio.py verificar   # los 18 criterios del sitio (02-sitio/)
 python src/capturar-sitio.py       # recapturar la portada del sitio nuevo
 ```
+
+## 6 · Estado: publicado, con los 6 gates en verde
+
+```
+OK    0/6  armar el preview
+OK    1/6  construir el entregable
+OK    2/6  spec del workflow (v2.0)
+OK    3/6  spec editorial (v1.0)
+OK    4/6  promesas vs sitio publicado
+OK    5/6  PDF del informe
+OK    6/6  PDF de la propuesta
+exit 0 — los PDFs se escribieron porque la fase 1 quedó entera en verde
+```
+
+| Pieza | URL |
+|---|---|
+| Portada del lead | https://lisandrocacciatore.github.io/LeadSofia/ |
+| Sitio nuevo | https://lisandrocacciatore.github.io/LeadSofia/sitio/ |
+| Propuesta | https://lisandrocacciatore.github.io/LeadSofia/propuesta/ |
+| Informe | https://lisandrocacciatore.github.io/LeadSofia/informe/ |
+
+Repo: https://github.com/LisandroCacciatore/LeadSofia (público). Las 4 rutas responden `200` y van
+con `noindex, nofollow` + `robots.txt: Disallow: /` mientras sea maqueta. Los PDF
+(`informe-sofia-strafile.pdf`, `propuesta-sofia-strafile.pdf`) quedan versionados en el repo.
+
+**Pitfall que apareció:** en un repo nuevo, `configure-pages` falla con «Resource not accessible by
+integration» aunque el workflow traiga `enablement: true`. Hay que habilitar Pages por API antes del
+primer deploy:
+
+```bash
+gh api -X POST repos/LisandroCacciatore/LeadSofia/pages -f build_type=workflow
+gh run rerun <id del run fallido>
+```
+
