@@ -1,240 +1,454 @@
 {
   "meta": {
     "nombre": "Sofía Strafile",
-    "negocio": "[Qué es, en pocas palabras — «Nutrición · Rosario», «Pescadería y rotisería»]",
+    "negocio": "Asesoría de imagen y colorimetría · Online",
     "rubro": "Asesora de imagen y colorimetría · Online · Argentina",
     "fecha": "7 de octubre de 2026",
     "validez": "6 de noviembre de 2026",
-    "url": "sin sitio propio; su presencia es https://www.instagram.com/sofiastrafile/",
+    "url": "sin sitio propio; su presencia es @sofiastrafile en Instagram",
     "presenciaUrl": "https://www.instagram.com/sofiastrafile/",
-    "presenciaEtiqueta": "https://www.instagram.com/sofiastrafile/"
+    "presenciaEtiqueta": "@sofiastrafile en Instagram"
   },
   "author": {
     "nombre": "Lisandro Cacciatore",
     "email": "lisandrocacciatore@gmail.com"
   },
   "branding": {
-    "colorPrimario": "#[hex de la identidad del cliente]"
+    "colorPrimario": "#1F3A5F"
   },
-  "costoMensual": "AR$ 240.000",
-  "baseCalculo": "1 consulta semanal que no se recupera, a AR$ 60.000 (la tarifa que publicás en tu sitio)",
-  "comparativos": 7,
-  "fechasPermitidas": [],
+  "recomendados": [
+    "whatsapp",
+    "seo-estructurado",
+    "geo-aeo"
+  ],
+  "sitio": {
+    "direccion": "",
+    "telefono": "+54 9 341 615-3151",
+    "whatsapp": "https://wa.me/5493416153151",
+    "whatsappMensaje": "Hola Sofia! Quiero coordinar una asesoría",
+    "horarios": "",
+    "mapa": "",
+    "redes": {
+      "instagram": "https://www.instagram.com/sofiastrafile/",
+      "tiktok": "https://www.tiktok.com/@sofiastrafile"
+    },
+    "secciones": [
+      "sobre-mi",
+      "servicios",
+      "programas",
+      "casos",
+      "prueba",
+      "faq",
+      "reserva"
+    ],
+    "imagenes": "faltan las fotos propias: el sitio va con marcadores locales, sin banco de imágenes de terceros",
+    "canonical": "https://sofiastrafile.com.ar",
+    "dominioPrevisto": "https://sofiastrafile.com.ar"
+  },
   "modelo": {
-    "url": "[URL pública del sitio nuevo]",
-    "titulo": "Página modelo",
-    "bajada": "[Una línea: qué se ve ahí]",
-    "caption": "Nuevo — [mejora concreta respecto de hoy]",
-    "cta": "Ver la página modelo"
+    "url": "",
+    "titulo": "Sitio nuevo",
+    "bajada": "Tu sitio completo, con tus programas, tus números y WhatsApp en cada sección.",
+    "caption": "Nuevo — sitio propio en tu nombre, sin el chrome de Linktree y sin llamadas a terceros",
+    "cta": "Ver el sitio nuevo"
   },
   "salida": {
     "slug": "sofia-strafile"
   },
   "verificacionPDF": {
     "datos": [
-      "[Dato verificado del cliente que debe sostenerse en el PDF]"
+      "163.805",
+      "0,218",
+      "7 de 12",
+      "+54 9 341 615-3151",
+      "sofiastrafile.com.ar"
     ],
-    "hojas": [
-      5,
-      14
-    ]
+    "hojas": []
   },
   "propuesta": {
-    "saludo": "[saludo: redactar en segunda persona, sin muletillas]",
-    "heroTitulo": "[heroTitulo: redactar en segunda persona, sin muletillas]",
-    "heroLead": "[heroLead: redactar en segunda persona, sin muletillas]",
-    "comparativoTitulo": "[comparativoTitulo: redactar en segunda persona, sin muletillas]",
-    "costoNota": "[costoNota: redactar en segunda persona, sin muletillas]",
-    "propuestaTitulo": "[propuestaTitulo: redactar en segunda persona, sin muletillas]",
-    "propuestaIntro": "[propuestaIntro: redactar en segunda persona, sin muletillas]",
-    "baseLabel": "[baseLabel: redactar en segunda persona, sin muletillas]",
-    "preguntasTitulo": "[preguntasTitulo: redactar en segunda persona, sin muletillas]",
-    "cierreTitulo": "[cierreTitulo: redactar en segunda persona, sin muletillas]",
-    "cierreBody": "[cierreBody: redactar en segunda persona, sin muletillas]",
-    "conversionTitulo": "[conversionTitulo: redactar en segunda persona, sin muletillas]"
+    "saludo": "Te armé el sitio completo, medí tu presencia actual y escribí la propuesta. Empezá por el sitio: es lo que ya está hecho y se puede recorrer.",
+    "heroTitulo": "Tu sitio, listo para mirar",
+    "heroLead": "Medí tu presencia el 7 de octubre de 2026: tu perfil de Instagram completo, tu página de enlaces, tu TikTok, tu WhatsApp y la disponibilidad de tu dominio. Todo lo que sigue sale de esas mediciones, y lo que no pude medir está dicho como tal.",
+    "comparativoTitulo": "",
+    "costoNota": "",
+    "propuestaTitulo": "Qué te propongo y cuánto cuesta",
+    "propuestaIntro": "La base resuelve lo que hoy no existe: un sitio propio en tu nombre, con tus dos programas y WhatsApp en cada sección. Los add-ons son los que este diagnóstico justifica; el menú completo está abajo y podés sumar o quitar lo que quieras.",
+    "baseLabel": "Base",
+    "preguntasTitulo": "Lo que necesito de vos para publicarlo",
+    "cierreTitulo": "El próximo paso",
+    "cierreBody": "Si te cierra, respondé este mail con «dale» y arrancamos: registro el dominio a tu nombre y publico el sitio en una semana. Si querés verlo antes en el celular, entrá al sitio nuevo desde la portada de este mismo entregable.",
+    "conversionTitulo": ""
   },
   "callout": {
     "label": "Costo de no hacer nada",
-    "strong": "[Una línea con el costo, sin repetir un número que ya esté en el cuadro]",
-    "note": "[De dónde sale el número y qué queda marcado [INFERIBLE]]",
+    "strong": "Hoy tu nombre exacto está libre y tu página de enlaces trabaja para Linktree: la única pantalla que controlás es la de otro.",
+    "note": "[INFERIBLE] No calculo el costo en dinero porque tus tarifas no están publicadas ni verificadas: el motor no convierte tarifas que no midió.",
     "excepcionTarifa": false
-  },
-  "conversion": {
-    "tipoCambio": 1551.9,
-    "tipoCambioFecha": "4 de octubre de 2026",
-    "tipoCambioFuente": "dolarapi.com (dólar bolsa, venta)",
-    "tipoCambioDetalle": "USD 1 = AR$ 1.551,90",
-    "tarifaSesion": 60000,
-    "tarifaSesionFuente": "liclisandrolagos.com — sección Precios (publicada por el propio profesional)",
-    "unidad": "sesiones",
-    "referenciaEtiqueta": "la tarifa que publicás",
-    "costoMensualNum": 240000,
-    "cierre": "<p class=\"evsrc\">El pack completo ({total}) se paga con {unidades} {unidad}: menos de lo que facturás en tres semanas trabajando a una consulta por día. Y si el sitio recupera una sola consulta por semana, la base de {base} se paga en {recupero} meses.</p>\n    <p class=\"evsrc\">[INFERIBLE] La recuperación depende de tu agenda real, que no veo. El número de {unidad} equivalentes, en cambio, es aritmética sobre datos que vos publicás.</p>"
   },
   "hallazgos": [
     {
       "tipo": "[MEDIDO]",
       "prioridad": "alta",
-      "titulo": "[Titular para el INFORME. Máx. 12 palabras, sin coloquialismos]",
-      "tituloCorto": "[Titular para la PROPUESTA. Corto y distinto del de arriba]",
-      "descripcion": "[Detalle largo, solo para el informe. Empieza con el contexto medido]",
-      "resumen": "[Una línea para la propuesta. Empieza con el NÚMERO, no con contexto]",
-      "impacto": "[Qué significa, redactado para el informe]",
-      "significa": "[Qué significa, redactado distinto para la propuesta]",
-      "propongo": "[Módulo Mx o acción concreta. No repite el dato]"
+      "titulo": "No tenés dominio: toda tu casa digital es prestada",
+      "tituloCorto": "0 dominios propios",
+      "descripcion": "Medí tu presencia completa y no hay un solo dominio a tu nombre: el perfil de Instagram, la página de enlaces y los dos catálogos de WhatsApp viven en plataformas de terceros. La contracara es una oportunidad con vencimiento: tu nombre exacto está libre. sofiastrafile.com.ar, sofiastrafile.ar y sofiastrafile.com no están registrados (whois de NIC.ar y Verisign, 7 de octubre de 2026). El apellido sí lo tomaron terceros: sofia.com.ar pertenece a otro titular desde 2016 y strafile.com a otro desde 2024.",
+      "resumen": "0 dominios propios, con tu nombre exacto libre en .com.ar, .ar y .com.",
+      "impacto": "Cada canal por el que te contactan es de otro, y el día que esa plataforma cambia sus reglas tu acceso cambia con ellas. Mientras tanto, tu prestigio no se acumula en ningún nombre que sea tuyo.",
+      "significa": "Tu nombre está disponible hoy y es el único activo de esta lista que se puede perder.",
+      "propongo": "Registrar sofiastrafile.com.ar y construir el sitio ahí: el add-on de SEO estructurado lo deja apuntado y con el Perfil de Empresa en Google."
+    },
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "alta",
+      "titulo": "163.805 seguidores conviven con 0,218 % de interacción",
+      "tituloCorto": "Interacción por debajo del rubro",
+      "descripcion": "Medí publicación por publicación tus últimas 12 publicaciones visibles. La mediana es 357 me gusta sobre 163.805 seguidores: 0,218 %. El rango habitual del rubro es 1 % a 3 % [INFERIBLE], diez veces más. Los comentarios, en cambio, están por encima de lo esperable (mediana 82, y 182 en una sola publicación) porque el pedido de comentar funciona. La muestra no es aleatoria: sólo son medibles las publicaciones con el conteo público.",
+      "resumen": "357 me gusta de mediana sobre 163.805 seguidores: 0,218 %.",
+      "impacto": "El número que mostrás no es el alcance que tenés. No es un problema de constancia: publicás casi todas las semanas y el contenido circula.",
+      "significa": "No te falta visibilidad: falta que el número que mostrás sea el que tenés, y eso se arregla con contenido propio, no con diseño.",
+      "propongo": "Decir esto en la propuesta y en el informe, sin maquillarlo, y sumar el blog con SEO para que la autoridad quede en tu dominio y no en cuerpos ajenos."
+    },
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "alta",
+      "titulo": "7 de cada 12 publicaciones tienen los me gusta ocultos",
+      "tituloCorto": "Me gusta ocultos en la mayoría",
+      "descripcion": "Instagram sirve la ficha de una publicación sin conteos cuando la cuenta tiene los me gusta ocultos, y el indicador está en el código de la propia publicación (like_and_view_counts_disabled en true). Reintenté tres veces con esperas crecientes: el resultado es idéntico, no es un fallo de lectura. En esas 7 publicaciones no hay número público ni en la publicación ni en la versión incrustada.",
+      "resumen": "7 de 12 publicaciones sin conteo público: no hay prueba social de likes que mostrar.",
+      "impacto": "Quien llega desde un reel y quiere ver resultados no encuentra números en la mayoría de tu contenido, justo donde más pesa.",
+      "significa": "Tu activo más fuerte es tu audiencia, y en tu propio feed no hay números que lo respalden.",
+      "propongo": "Definir con vos qué se muestra como prueba en el sitio: los destacados, testimonios con permiso de uso, o los números públicos de TikTok."
+    },
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "media",
+      "titulo": "Buscarte por tu nombre en Google no te encuentra",
+      "tituloCorto": "0 fichas en Google",
+      "descripcion": "Busqué tu nombre y tu rubro en Google Maps. El primer resultado es una asesora homónima en Chile y, en la búsqueda por rubro, aparecen asesoras de Buenos Aires: vos no estás. No tenés ficha de Perfil de Empresa ni datos estructurados en ninguna parte.",
+      "resumen": "0 fichas propias en Google entre tu nombre y tu rubro.",
+      "impacto": "Quien te busca después de ver un reel no encuentra un lugar donde dejarte un dato, ni una confirmación de que el servicio existe y lo das vos.",
+      "significa": "Toda la demanda que generás en redes termina en un perfil social, que no es tuyo ni te deja el contacto.",
+      "propongo": "El add-on de SEO estructurado más el Perfil de Empresa: que buscar tu nombre devuelva tu sitio y no a una homónima."
+    },
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "media",
+      "titulo": "El enlace de TikTok de tu página de enlaces no existe",
+      "tituloCorto": "Enlace de TikTok roto",
+      "descripcion": "La página de enlaces de tu bio apunta a tiktok.com/@sofistrafile, y TikTok responde que la cuenta no se encuentra. La cuenta real es @sofiastrafile, con 7.953 seguidores y 120,4 mil me gusta acumulados.",
+      "resumen": "1 enlace roto de 6 en tu página de enlaces: el de TikTok.",
+      "impacto": "Es el único desvío propio que tenías fuera de Instagram y estaba caído: quien lo tocaba no llegaba a ningún lado.",
+      "significa": "El tráfico que ya generás se pierde en un enlace mal escrito, no en falta de audiencia.",
+      "propongo": "El sitio nuevo corrige el destino en el pie y suma el perfil correcto en los datos estructurados."
+    },
+    {
+      "tipo": "[MEDIDO]",
+      "prioridad": "media",
+      "titulo": "Tu única página de enlaces trabaja para Linktree",
+      "tituloCorto": "3 botones, los 3 a WhatsApp",
+      "descripcion": "El destino del enlace de tu bio son 3 botones (Asesoría de imagen, WhatsApp y Colorimetría), los tres apuntan al mismo WhatsApp, más 3 íconos sociales. No hay precios, ni descripción de servicios, ni forma de dejar un dato. La página cierra ofreciendo Linktree a quien la visita. En el código hay 26 enlaces de afiliados de terceros que no se dibujan en pantalla: van en el payload, no en la página, y los declaro acá para que no se confundan con enlaces tuyos.",
+      "resumen": "3 botones en tu página de enlaces, los 3 al mismo WhatsApp: ningún precio y ningún servicio por escrito.",
+      "impacto": "La pantalla que ves como tu casa es una pieza de otra empresa, y encima pesa 4,8 MB para mostrar tres botones.",
+      "significa": "No tenés dónde explicar qué hacés, ni dónde que alguien deje su contacto para que le escribas vos.",
+      "propongo": "El sitio nuevo reemplaza esa pantalla: tus dos programas publicados, tus números y WhatsApp en cada sección."
     }
   ],
   "comparativo": {
-    "titulo": "",
-    "intro": "[De dónde salió el set de comparables y cómo se midió]",
-    "columnas": [
-      "Sitio",
-      "Estado",
-      "Idioma",
-      "Descripción en Google",
-      "Datos estructurados",
-      "Mapa del sitio",
-      "Botón de WhatsApp"
+    "titulo": "Tres cosas que sí medí",
+    "intro": "No hice comparativo contra colegas del rubro: Google devolvió el captcha de tráfico inusual desde esta red, y un comparativo que no se midió no se estima. Lo que sigue son tres mediciones tuyas, hechas el mismo día.",
+    "columnas": [],
+    "filas": [],
+    "bullets": [
+      "Tu página de enlaces actual pesa 4,8 MB y no tiene un solo precio publicado [MEDIDO].",
+      "El enlace de TikTok de esa página apunta a una cuenta que no existe [MEDIDO].",
+      "No hay ficha de Google a tu nombre: quien te busca después de un reel no encuentra dónde dejarte un dato [MEDIDO]."
     ],
-    "filas": [
-      {
-        "cliente": false,
-        "celdas": [
-          "[Completa acá]",
-          "200 OK",
-          "0",
-          "0",
-          "0",
-          "0",
-          "0"
-        ]
-      }
-    ],
-    "bullets": [],
     "kpis": [
       {
-        "valor": "0",
-        "label": "[máx. 8 palabras]"
+        "valor": "163.805",
+        "label": "seguidores en Instagram"
+      },
+      {
+        "valor": "0,218 %",
+        "label": "interacción en las últimas publicaciones"
+      },
+      {
+        "valor": "7 de 12",
+        "label": "publicaciones con los me gusta ocultos"
       },
       {
         "valor": "0",
-        "label": "[máx. 8 palabras]"
-      },
-      {
-        "valor": "0",
-        "label": "[máx. 8 palabras]"
+        "label": "dominios propios"
       }
     ],
-    "nota": "[Unidad de cada columna. Sin celdas ambiguas]",
-    "medidoEl": "[fecha]",
-    "mostrarEnInforme": true
+    "nota": "Medido el 7 de octubre de 2026 con Chrome real, sin sesión ni API.",
+    "medidoEl": "7 de octubre de 2026",
+    "mostrarEnInforme": false
   },
-  "modulos": [
-    {
-      "id": "m1",
-      "code": "M1",
-      "icon": "chat",
-      "title": "[Nombre del módulo M1]",
-      "price": 80,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m2",
-      "code": "M2",
-      "icon": "notifications_active",
-      "title": "[Nombre del módulo M2]",
-      "price": 120,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m3",
-      "code": "M3",
-      "icon": "calendar_month",
-      "title": "[Nombre del módulo M3]",
-      "price": 100,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m4",
-      "code": "M4",
-      "icon": "search",
-      "title": "[Nombre del módulo M4]",
-      "price": 100,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m5",
-      "code": "M5",
-      "icon": "receipt_long",
-      "title": "[Nombre del módulo M5]",
-      "price": 60,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m6",
-      "code": "M6",
-      "icon": "edit_note",
-      "title": "[Nombre del módulo M6]",
-      "price": 90,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    }
-  ],
   "nextSteps": [
-    "[Próximo paso concreto. Máx. 4]"
+    "Registrar sofiastrafile.com.ar mientras siga libre y apuntarlo al sitio",
+    "Pasarme las fotos propias (son 9 imágenes; si no, se usan marcadores declarados)",
+    "Decirme los valores de los tres programas y si ofrecés cuotas",
+    "Darme uno o dos testimonios con permiso de uso, o dejamos los números como prueba"
   ],
   "preguntasAbiertas": [
-    "[Qué necesitás del cliente para arrancar]"
+    "Los valores de los tres programas y las formas de pago disponibles",
+    "Las fotos propias, o la autorización para usar un banco con licencia",
+    "Dos testimonios con permiso de uso, si los tenés",
+    "Si atendés presencial en alguna ciudad, para el Perfil de Empresa en Google",
+    "El mail profesional que querés usar (propongo hola@sofiastrafile.com.ar)"
+  ],
+  "sinIncluir": [
+    "La producción de contenido para tu Instagram o TikTok: eso lo seguís haciendo vos",
+    "La gestión mensual de tus redes sociales",
+    "La migración de contenido: tus redes ordenan y resumen, no se copian al sitio",
+    "El registro del dominio y del mail profesional corren a tu nombre, no a nombre mío",
+    "Fotos profesionales: el sitio usa las tuyas o marcadores declarados"
+  ],
+  "alcance": [
+    "✓ Instagram completo: nombre, bio, enlace de la bio, verificada, seguidores, publicaciones y las últimas 12 publicaciones publicación por publicación",
+    "✓ Página de enlaces (Linktree): botones, íconos, plan y qué se dibuja en pantalla",
+    "✓ TikTok: handle real del perfil y métricas públicas del bloque de búsqueda",
+    "✓ WhatsApp: número, los dos catálogos publicados y a dónde llevan",
+    "✓ Google Maps: búsqueda de tu nombre y de tu rubro",
+    "✓ Dominio: disponibilidad por whois en NIC.ar y Verisign, verificado por consulta directa",
+    "✓ Peso de la página que hoy te representa: 4,8 MB en 63 archivos",
+    "✗ Comparativo contra colegas del rubro: Google devolvió el captcha de tráfico inusual desde esta red; se omite en vez de estimarlo",
+    "✗ Tus tarifas: no están publicadas; van a tus preguntas abiertas",
+    "✗ Alcance de 7 de tus 12 publicaciones: tienen los me gusta ocultos por decisión de la cuenta",
+    "✗ Cuántos de tus seguidores son reales: Instagram sólo publica el total y no se puede refutar midiendo"
   ],
   "peso": {
-    "medidoEl": "4 de octubre de 2026",
+    "medidoEl": "7 de octubre de 2026",
     "antes": {
-      "total_kb": 3555.8,
-      "archivos": 18,
-      "html_kb": 26.4
+      "total_kb": 4849.4,
+      "archivos": 63,
+      "html_kb": 226.9
     },
     "despues": {
-      "total_kb": 724.6,
-      "archivos": 5,
-      "html_kb": 48.4
+      "total_kb": 318.0,
+      "archivos": 15,
+      "html_kb": 43.5
     },
-    "comando": "python scripts/pesar.py <url>"
+    "comando": "python scripts/pesar.py https://linktr.ee/sofia.strafile  ·  el sitio nuevo, medido con Chrome sobre HTTP local (transferencia real de la primera visita)"
   },
   "imagenes": {
-    "antes": "00-auditoria/capturas/antes-portada.jpg",
+    "antes": "00-auditoria/linktree.png",
     "despues": "02-sitio/capturas/despues-portada.jpg",
-    "captionAntes": "Hoy — template de plataforma, sin WhatsApp, sin descripción para Google",
-    "captionDespues": "Propuesta — sitio propio, tus fotos reales, tu habilitación como texto"
+    "captionAntes": "Hoy — la página de enlaces de tu bio: 3 botones al mismo WhatsApp, con el chrome de Linktree",
+    "captionDespues": "Propuesta — sitio propio en tu nombre, con tus programas, tus números y WhatsApp en cada sección"
   },
   "base": {
     "precio": 350,
     "items": [
-      "[Qué incluye la base. Una promesa por línea, verificable contra el sitio]",
-      "[Si promete N secciones, el sitio nuevo tiene que tener N]"
+      "7 secciones con tus datos reales",
+      "Botón flotante de WhatsApp en todo el sitio",
+      "Cada llamado a la acción abre WhatsApp con el mensaje ya escrito",
+      "Tus dos programas ya publicados, enlazados desde el sitio",
+      "Sitio autocontenido: sin cookies ni llamadas a terceros",
+      "Peso por debajo de 1 MB por página, medido antes y después"
     ]
   },
-  "sinIncluir": [
-    "[Qué no incluye la propuesta. Máx. 5 ítems]"
-  ],
-  "alcance": [
-    "✓ [Lo que sí se midió]",
-    "✗ [Lo que no se pudo medir, y por qué]"
+  "costoMensual": "",
+  "baseCalculo": "",
+  "comparativos": 0,
+  "fechasPermitidas": [],
+  "modulos": [
+    {
+      "id": "whatsapp",
+      "code": "M1",
+      "title": "WhatsApp contextual",
+      "price": 100,
+      "short": "El atajo directo, con el mensaje ya escrito según la sección.",
+      "bullets": [
+        "Botón flotante en todas las secciones",
+        "El texto del mensaje cambia según dónde está la persona",
+        "Abre en un clic desde el celular, sin copiar el número",
+        "Sin costo mensual de plataforma"
+      ],
+      "recomendado": true
+    },
+    {
+      "id": "seo-estructurado",
+      "code": "M2",
+      "title": "SEO estructurado y Perfil de Empresa en Google",
+      "price": 150,
+      "short": "Que Google entienda quién sos y te muestre cuando te buscan.",
+      "bullets": [
+        "Datos estructurados del negocio y su localidad (schema.org)",
+        "Descripción para buscadores, Open Graph y Twitter Cards",
+        "Mapa del sitio y robots.txt",
+        "Alta y verificación en Google Search Console"
+      ],
+      "recomendado": true
+    },
+    {
+      "id": "geo-aeo",
+      "code": "M3",
+      "title": "GEO y AEO",
+      "price": 150,
+      "short": "Para que los asistentes de inteligencia artificial puedan citarte.",
+      "bullets": [
+        "Cada contenido publicado en el formato que leen los asistentes de IA",
+        "Archivo llms.txt para que lean el sitio ordenado",
+        "Estructura de respuesta corta: el recuadro de arriba se lo lleva quien la tiene",
+        "Perfil de negocio alineado con lo que dicen tus artículos"
+      ],
+      "recomendado": true
+    },
+    {
+      "id": "terminacion",
+      "code": "M4",
+      "title": "Terminación y accesibilidad verificada",
+      "price": 160,
+      "short": "Que cualquiera pueda usar el formulario y leer el sitio sin esfuerzo.",
+      "bullets": [
+        "Contraste del cuerpo llevado al rango de accesibilidad (4,5:1 o más)",
+        "Etiquetas reales, en español y asociadas a cada campo del formulario",
+        "Descripciones reales en las imágenes que hoy tienen texto de relleno",
+        "Foco de teclado visible: se puede navegar sin mouse"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "blog-seo",
+      "code": "M5",
+      "title": "Blog con SEO (creación)",
+      "price": 180,
+      "short": "Que te encuentren cuando te buscan, con artículos propios.",
+      "bullets": [
+        "Blog propio, con dirección y título por artículo",
+        "Indexación y alta del blog en Google",
+        "Mapa del sitio al día",
+        "Incluye 3 artículos iniciales de hasta 800 palabras cada uno"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "migracion",
+      "code": "M6",
+      "title": "Migración de contenidos",
+      "price": 130,
+      "short": "Tus contenidos actuales, adentro de tu sitio y con tu autoría.",
+      "bullets": [
+        "Traslado de tus publicaciones reales a artículos con autoría",
+        "Sin inventar métricas ni testimonios",
+        "Etiquetas y buscador por tema",
+        "Un mínimo de arranque acordado (por ejemplo, diez contenidos)"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "medicion",
+      "code": "M7",
+      "title": "Medición y capacitación",
+      "price": 100,
+      "short": "Para que lo manejes vos, sin depender de nadie.",
+      "bullets": [
+        "Alta y verificación en Google Search Console",
+        "Analítica para ver qué contenido te trae consultas",
+        "Capacitación de una hora, grabada",
+        "Manual en PDF para publicar solo"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "peso",
+      "code": "M8",
+      "title": "Peso y velocidad",
+      "price": 150,
+      "short": "Menos espera en celular, medido antes y después.",
+      "bullets": [
+        "Agrupar y minificar los estilos",
+        "Recortar el CSS a lo que cada página realmente usa",
+        "Medición antes y después con el peso transferido, no con impresiones",
+        "Sin plugins nuevos ni cambios de tema"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "recordatorios",
+      "code": "M9",
+      "title": "Recordatorios automáticos de turno",
+      "price": 120,
+      "short": "Bajan las ausencias sin que escribas un mensaje más.",
+      "bullets": [
+        "Aviso 24 horas antes del turno",
+        "Confirmación automática al agendar",
+        "Reagendado en dos toques",
+        "Sirve para presencial y para online"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "agenda",
+      "code": "M10",
+      "title": "Agenda online sincronizada",
+      "price": 100,
+      "short": "Reservan solos, a cualquier hora, en la agenda que ya usás.",
+      "bullets": [
+        "Sincronización con Google Calendar",
+        "Bloqueo automático de horarios ya tomados",
+        "Zona horaria automática para quien consulta desde el exterior",
+        "Se puede convivir con otra plataforma o reemplazarla"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "linkedin",
+      "code": "M11",
+      "title": "Sección LinkedIn / contenidos",
+      "price": 100,
+      "short": "Tus textos de LinkedIn, en tu sitio, sin depender de la red social.",
+      "bullets": [
+        "Sección de ensayos y notas con autoría",
+        "Carga desde tus publicaciones reales, sin inventar métricas",
+        "Buscador y etiquetas por tema",
+        "Capacitación de 1 hora más manual para publicar solo"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "verificacion",
+      "code": "M12",
+      "title": "Verificación y entrega documentada",
+      "price": 80,
+      "short": "No te quedás con mi palabra: te quedás con la medición.",
+      "bullets": [
+        "Remedición de todo lo del bloque de terminación, después de aplicado",
+        "Comprobación en un celular real",
+        "Documento corto con qué se cambió y con qué se verifica cada cosa",
+        "Sin costo mensual ni licencia"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "honorarios",
+      "code": "M13",
+      "title": "Página de honorarios y encuadre económico",
+      "price": 60,
+      "short": "Qué cuesta, cómo se paga y qué se entrega, sin vueltas.",
+      "bullets": [
+        "Honorarios visibles y sin ambigüedad",
+        "Modalidad de pago y de coordinación de turnos",
+        "Qué documentación se entrega (a definir con el profesional)",
+        "Baja las consultas que no llegan a cerrar"
+      ],
+      "recomendado": false
+    },
+    {
+      "id": "blog-conectar",
+      "code": "M14",
+      "title": "Conexión de blog existente",
+      "price": 50,
+      "short": "Si ya tenés blog, se conecta, se ordena y se deja indexable.",
+      "bullets": [
+        "Enlace al blog desde cada página de servicio",
+        "Títulos y descripciones propios por artículo",
+        "Indexable: mapa del sitio y datos estructurados de artículo",
+        "Sin reescribir tus textos"
+      ],
+      "recomendado": false
+    }
   ]
 }

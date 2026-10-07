@@ -17,3 +17,7 @@ dist/
 !00-auditoria/informe*.pdf
 
 # El informe y la propuesta en PDF SÍ son entregables: no se ignoran (ver arriba).
+
+# Dependencias del build de Tailwind (se reconstruyen con npm i)
+node_modules/
+package-lock.json

@@ -1,0 +1,1566 @@
+{
+  "props": {
+    "pageProps": {
+      "account": {
+        "id": 99412440,
+        "uuid": "30fab0a5-5d0d-4fd9-ac95-5607b9c9199e",
+        "username": "sofia.strafile",
+        "isActive": true,
+        "status": "",
+        "deleted": false,
+        "profilePictureUrl": "https://ugc.production.linktr.ee/0281288d-f012-4fa8-83b1-76987f696858_IMG-8602.jpeg",
+        "avatarMode": "CIRCLE_SMALL",
+        "avatarType": "IMAGE",
+        "avatarShapeType": null,
+        "bannerImage": null,
+        "bannerImageAttributes": null,
+        "bannerVideo": null,
+        "bannerType": "IMAGE",
+        "pageTitle": "Sofía Strafile",
+        "googleAnalyticsId": null,
+        "facebookPixelId": null,
+        "tiktokPixelId": null,
+        "donationsActive": false,
+        "causeBanner": null,
+        "contentWarning": null,
+        "description": "Tu estilo empieza por cómo te tratás!",
+        "isLogoVisible": true,
+        "socialLinksPosition": "BOTTOM",
+        "useSignupLink": false,
+        "createdAt": 1742407997000,
+        "updatedAt": 1783270816000,
+        "defaultProfilePage": "LINKS",
+        "verticals": [],
+        "seoPrimaryVertical": null,
+        "customAvatar": "https://ugc.production.linktr.ee/0281288d-f012-4fa8-83b1-76987f696858_IMG-8602.jpeg",
+        "customAvatarVideo": null,
+        "customAvatarAttributes": "{\"baseImageUrl\":\"https://ugc.production.linktr.ee/0281288d-f012-4fa8-83b1-76987f696858_IMG-8602.jpeg\",\"lastAppliedFilter\":null,\"canvaDesignId\":\"\"}",
+        "backgroundImageAttributes": null,
+        "profileBadges": null,
+        "stickers": [],
+        "isVenmoEnabled": true,
+        "isSquareWalletEnabled": true,
+        "isCookieBannerEnabled": true,
+        "isInitialsProfileEnabled": true,
+        "isWhatsappNotificationsEnabled": true,
+        "isShareLinksEnabled": true,
+        "isOnlyfansSEOEnabled": false,
+        "linkTypesForSEO": null,
+        "manualTitleTag": null,
+        "dynamicMetaTitle": "Sofía Strafile Official: TikTok, Instagram | Linktree",
+        "dynamicMetaDescription": "Tu estilo empieza por cómo te tratás!",
+        "tier": "free1",
+        "enableDynamicProfilePageMetadata": true,
+        "linkPlatforms": [
+          "TikTok",
+          "Instagram"
+        ],
+        "isAmazonAffiliateEnabled": true,
+        "profileLinkContentDisplayType": "dialog1",
+        "complementaryThemeProperties": false,
+        "timezone": "America/Cordoba",
+        "showSignupOption": true,
+        "country": "AR",
+        "isReportLinktreeEnabled": true,
+        "isVisualLinkPreviewsEnabled": true,
+        "isStoreTabEnabled": false,
+        "isFetchCoMoFromLinktreeBackendEnabled": true,
+        "canAccessMonetizationTab": true,
+        "eligibleForMonetization": "NONE",
+        "isMessagingEnabled": false,
+        "hasOptedIntoTotalFollowerCount": false,
+        "isSensitive": false,
+        "isSensitiveWithGracePeriod": false,
+        "isSeoNoindex": false,
+        "userGeneratedBio": "Sofía Strafile has been a member of Linktree for 1 year and joined in March 2025.\n\nThe social media accounts linked to from Sofía Strafile are:\n• Instagram\n• TikTok\n• WhatsApp\n\nBesides social media accounts, sofia.strafile has populated their site with:\n• Asesoría de imagen\n• Colorimetría",
+        "showGeneratedBio": true,
+        "hasMediaKit": false,
+        "isDigitalWalletActive": null,
+        "messagingSettings": null,
+        "isAdsPolicyEligible": true,
+        "isUnclaimedAccount": false,
+        "socialIntegrations": [],
+        "connectors": [],
+        "affiliateTokens": [],
+        "ownedBy": {
+          "id": 45388158,
+          "uuid": "665ee31f-c2b6-4a53-91f9-e2b4f9f7dff3",
+          "isEmailVerified": true
+        },
+        "pageMeta": null,
+        "integrations": [],
+        "links": [
+          {
+            "context": {
+              "monetizationOptOut": null,
+              "monetization": null
+            },
+            "id": 526097577,
+            "type": "CLASSIC",
+            "title": "Asesoría de imagen",
+            "position": 0,
+            "url": "https://wa.me/p/23924291647213034/5493416153151",
+            "shouldRouteToProfile": false,
+            "modifiers": {
+              "animation": null,
+              "autoExpand": false,
+              "animationContext": null,
+              "isForwarding": false,
+              "isForwardingActive": false,
+              "sponsorshipId": null,
+              "thumbnailUrl": "https://ugc.production.linktr.ee/5d57b823-30cb-4fc2-bae0-1892da4ca010_WhatsApp-Image-2026-03-23-at-11.36.23.jpeg",
+              "amazonAffiliate": null,
+              "layoutOption": "stack",
+              "itemStyle": null
+            },
+            "rules": {
+              "gate": {
+                "activeOrder": [],
+                "sensitiveContent": {
+                  "domain": ""
+                },
+                "age": null,
+                "passcode": null,
+                "password": null,
+                "nft": null
+              }
+            },
+            "metadata": {
+              "title": null,
+              "ogTitle": null,
+              "description": null,
+              "ogDescription": null,
+              "image": null,
+              "imageAlt": null,
+              "thumbnail": null
+            },
+            "ltMetadata": {
+              "ltIsLinkTitleAiGenerated": null
+            },
+            "parent": null
+          },
+          {
+            "context": {
+              "monetizationOptOut": null,
+              "monetization": null
+            },
+            "id": 489595514,
+            "type": "CLASSIC",
+            "title": "WhatsApp ",
+            "position": 1,
+            "url": "https://wa.link/xii63u",
+            "shouldRouteToProfile": false,
+            "modifiers": {
+              "animation": null,
+              "autoExpand": false,
+              "animationContext": null,
+              "isForwarding": false,
+              "isForwardingActive": false,
+              "sponsorshipId": null,
+              "thumbnailUrl": "https://ugc.production.linktr.ee/024d4dcf-9287-41c8-8414-61b664c74cb9_a847c6d1ee1494d0815cff305237a86c.jpeg",
+              "amazonAffiliate": null,
+              "layoutOption": "stack",
+              "itemStyle": null
+            },
+            "rules": {
+              "gate": {
+                "activeOrder": [],
+                "sensitiveContent": {
+                  "domain": ""
+                },
+                "age": null,
+                "passcode": null,
+                "password": null,
+                "nft": null
+              }
+            },
+            "metadata": {
+              "title": null,
+              "ogTitle": null,
+              "description": null,
+              "ogDescription": null,
+              "image": null,
+              "imageAlt": null,
+              "thumbnail": null
+            },
+            "ltMetadata": {
+              "ltIsLinkTitleAiGenerated": null
+            },
+            "parent": null
+          },
+          {
+            "context": {
+              "monetizationOptOut": null,
+              "monetization": null
+            },
+            "id": 489594947,
+            "type": "CLASSIC",
+            "title": "Colorimetría",
+            "position": 2,
+            "url": "https://wa.me/p/25673960648860647/5493416153151",
+            "shouldRouteToProfile": false,
+            "modifiers": {
+              "animation": null,
+              "autoExpand": false,
+              "animationContext": null,
+              "isForwarding": false,
+              "isForwardingActive": false,
+              "sponsorshipId": null,
+              "thumbnailUrl": "https://ugc.production.linktr.ee/ce53568f-89fb-4ba1-b7b4-75d3a2a8d563_WhatsApp-Image-2026-03-23-at-11.43.57.jpeg",
+              "amazonAffiliate": null,
+              "layoutOption": "stack",
+              "itemStyle": null
+            },
+            "rules": {
+              "gate": {
+                "activeOrder": [],
+                "sensitiveContent": {
+                  "domain": ""
+                },
+                "age": null,
+                "passcode": null,
+                "password": null,
+                "nft": null
+              }
+            },
+            "metadata": {
+              "title": null,
+              "ogTitle": null,
+              "description": null,
+              "ogDescription": null,
+              "image": null,
+              "imageAlt": null,
+              "thumbnail": null
+            },
+            "ltMetadata": {
+              "ltIsLinkTitleAiGenerated": null
+            },
+            "parent": null
+          }
+        ],
+        "pinnedLinks": [],
+        "socialLinks": [
+          {
+            "type": "INSTAGRAM",
+            "url": "https://instagram.com/sofiastrafile",
+            "position": 1
+          },
+          {
+            "type": "TIKTOK",
+            "url": "https://tiktok.com/@sofistrafile",
+            "position": 2
+          },
+          {
+            "type": "WHATSAPP",
+            "url": "https://api.whatsapp.com/send?phone=543416153151",
+            "position": 3
+          }
+        ],
+        "socialFeeds": [],
+        "theme": {
+          "key": "custom",
+          "luminance": "LIGHT",
+          "background": {
+            "color": "#bda08f",
+            "style": "FLAT",
+            "type": "COLOR",
+            "noise": false
+          },
+          "buttonStyle": {
+            "type": "SOFTSHADOW_ROUNDED",
+            "backgroundStyle": {
+              "color": "#ffffff"
+            },
+            "cornerStyle": {
+              "type": "ROUNDED_NONE"
+            },
+            "shadowStyle": {
+              "type": "SHADOW_SM",
+              "color": "#000000"
+            },
+            "textStyle": {
+              "color": "#89614a"
+            }
+          },
+          "socialStyle": {
+            "color": "#faf0ef"
+          },
+          "typeface": {
+            "color": "#faf0ef",
+            "family": "ibm plex sans"
+          },
+          "heading": {
+            "type": "text",
+            "font": null,
+            "color": null,
+            "size": "normal",
+            "effect": "none",
+            "logo": null,
+            "logoSize": "normal"
+          },
+          "footer": {
+            "logoUrl": null,
+            "url": null,
+            "color": null,
+            "type": null,
+            "ctaTarget": null,
+            "experiment": null
+          }
+        }
+      },
+      "theme": {
+        "key": "custom",
+        "luminance": "LIGHT",
+        "background": {
+          "color": "#bda08f",
+          "style": "FLAT",
+          "type": "COLOR",
+          "noise": false
+        },
+        "buttonStyle": {
+          "type": "SOFTSHADOW_ROUNDED",
+          "backgroundStyle": {
+            "color": "#ffffff"
+          },
+          "cornerStyle": {
+            "type": "ROUNDED_NONE"
+          },
+          "shadowStyle": {
+            "type": "SHADOW_SM",
+            "color": "#000000"
+          },
+          "textStyle": {
+            "color": "#89614a"
+          }
+        },
+        "socialStyle": {
+          "color": "#faf0ef"
+        },
+        "typeface": {
+          "color": "#faf0ef",
+          "family": "ibm plex sans"
+        },
+        "heading": {
+          "type": "text",
+          "font": null,
+          "color": null,
+          "size": "normal",
+          "effect": "none",
+          "logo": null,
+          "logoSize": "normal"
+        },
+        "footer": {
+          "logoUrl": null,
+          "url": null,
+          "color": null,
+          "type": null,
+          "ctaTarget": null,
+          "experiment": null
+        },
+        "baseTheme": true
+      },
+      "fontTags": {
+        "primary": {
+          "style": "/*cyrillic-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}/*cyrillic*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}/*greek*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIJsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0370-03FF;}/*vietnamese*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;}/*latin-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}/*latin*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdP3pBms.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}/*cyrillic-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIxsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}/*cyrillic*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIVsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}/*greek*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIJsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0370-03FF;}/*vietnamese*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI5sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;}/*latin-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI9sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}/*latin*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIFsdP3pBms.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}/*cyrillic-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIxsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}/*cyrillic*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIVsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}/*greek*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIJsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0370-03FF;}/*vietnamese*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI5sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;}/*latin-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI9sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}/*latin*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIFsdP3pBms.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}/*cyrillic-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIxsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}/*cyrillic*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIVsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}/*greek*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIJsdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0370-03FF;}/*vietnamese*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI5sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;}/*latin-ext*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI9sdP3pBmtF8A.woff2)format('woff2');unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}/*latin*/@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/ibmplexsans/v19/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}",
+          "title": "IBM Plex Sans",
+          "type": "google"
+        }
+      },
+      "isProfileVerified": true,
+      "hasConsentedToView": true,
+      "hasPagePassword": false,
+      "pageLockType": null,
+      "pageLockDescription": null,
+      "hasUnlockedProfile": true,
+      "username": "sofia.strafile",
+      "pageTitle": "Sofía Strafile",
+      "description": "Tu estilo empieza por cómo te tratás!",
+      "socialLinks": [
+        {
+          "type": "INSTAGRAM",
+          "url": "https://instagram.com/sofiastrafile",
+          "position": 1
+        },
+        {
+          "type": "TIKTOK",
+          "url": "https://tiktok.com/@sofistrafile",
+          "position": 2
+        },
+        {
+          "type": "WHATSAPP",
+          "url": "https://api.whatsapp.com/send?phone=543416153151",
+          "position": 3
+        }
+      ],
+      "integrations": [],
+      "seoSchemaClassifications": {
+        "typeClassification": null
+      },
+      "seoPrimaryVertical": null,
+      "metaTitle": "Sofía Strafile Official: TikTok, Instagram | Linktree",
+      "metaDescription": "Tu estilo empieza por cómo te tratás!",
+      "customAvatar": "https://ugc.production.linktr.ee/0281288d-f012-4fa8-83b1-76987f696858_IMG-8602.jpeg",
+      "links": [
+        {
+          "id": "526097577",
+          "title": "Asesoría de imagen",
+          "context": {
+            "monetizationOptOut": null,
+            "monetization": null
+          },
+          "animation": null,
+          "autoExpand": false,
+          "animationEmoji": null,
+          "thumbnail": "https://ugc.production.linktr.ee/5d57b823-30cb-4fc2-bae0-1892da4ca010_WhatsApp-Image-2026-03-23-at-11.36.23.jpeg",
+          "url": "https://wa.me/p/23924291647213034/5493416153151",
+          "amazonAffiliate": null,
+          "type": "CLASSIC",
+          "rules": {
+            "gate": {
+              "activeOrder": [],
+              "sensitiveContent": {
+                "domain": ""
+              },
+              "age": null,
+              "passcode": null,
+              "password": null,
+              "nft": null
+            }
+          },
+          "position": 0,
+          "locked": null,
+          "parent": null,
+          "children": [],
+          "layoutOption": "stack",
+          "itemStyle": null,
+          "metaData": {
+            "title": null,
+            "ogTitle": null,
+            "description": null,
+            "ogDescription": null,
+            "image": null,
+            "imageAlt": null,
+            "thumbnail": null
+          }
+        },
+        {
+          "id": "489595514",
+          "title": "WhatsApp ",
+          "context": {
+            "monetizationOptOut": null,
+            "monetization": null
+          },
+          "animation": null,
+          "autoExpand": false,
+          "animationEmoji": null,
+          "thumbnail": "https://ugc.production.linktr.ee/024d4dcf-9287-41c8-8414-61b664c74cb9_a847c6d1ee1494d0815cff305237a86c.jpeg",
+          "url": "https://wa.link/xii63u",
+          "amazonAffiliate": null,
+          "type": "CLASSIC",
+          "rules": {
+            "gate": {
+              "activeOrder": [],
+              "sensitiveContent": {
+                "domain": ""
+              },
+              "age": null,
+              "passcode": null,
+              "password": null,
+              "nft": null
+            }
+          },
+          "position": 1,
+          "locked": null,
+          "parent": null,
+          "children": [],
+          "layoutOption": "stack",
+          "itemStyle": null,
+          "metaData": {
+            "title": "Share on WhatsApp",
+            "description": "WhatsApp Messenger: More than 2 billion people\n          in over 180 countries use WhatsApp to stay in touch with friends and\n          family, anytime and anywhere. WhatsApp is free and offers simple, secure,\n          reliable messaging and calling, available on phones all over the world.",
+            "ogTitle": "Share on WhatsApp",
+            "image": "https://static.whatsapp.net/rsrc.php/v4/yO/r/rukeqTVNJDY.png",
+            "ogDescription": "WhatsApp Messenger: More than 2 billion people\n          in over 180 countries use WhatsApp to stay in touch with friends and\n          family, anytime and anywhere. WhatsApp is free and offers simple, secure,\n          reliable messaging and calling, available on phones all over the world."
+          }
+        },
+        {
+          "id": "489594947",
+          "title": "Colorimetría",
+          "context": {
+            "monetizationOptOut": null,
+            "monetization": null
+          },
+          "animation": null,
+          "autoExpand": false,
+          "animationEmoji": null,
+          "thumbnail": "https://ugc.production.linktr.ee/ce53568f-89fb-4ba1-b7b4-75d3a2a8d563_WhatsApp-Image-2026-03-23-at-11.43.57.jpeg",
+          "url": "https://wa.me/p/25673960648860647/5493416153151",
+          "amazonAffiliate": null,
+          "type": "CLASSIC",
+          "rules": {
+            "gate": {
+              "activeOrder": [],
+              "sensitiveContent": {
+                "domain": ""
+              },
+              "age": null,
+              "passcode": null,
+              "password": null,
+              "nft": null
+            }
+          },
+          "position": 2,
+          "locked": null,
+          "parent": null,
+          "children": [],
+          "layoutOption": "stack",
+          "itemStyle": null,
+          "metaData": {
+            "title": null,
+            "ogTitle": null,
+            "description": null,
+            "ogDescription": null,
+            "image": null,
+            "imageAlt": null,
+            "thumbnail": null
+          }
+        }
+      ],
+      "pinnedLinks": [],
+      "leapLink": null,
+      "isOwner": false,
+      "isLogoVisible": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "stage": "production",
+      "commerceStorefrontItems": {
+        "hasCommissionProducts": false,
+        "items": [],
+        "posts": [],
+        "postsTotalCount": 0
+      },
+      "storeStructuredDataInDocument": false,
+      "hasDigitalWalletConnection": false,
+      "profileHasAffiliateContent": false,
+      "affiliateLinkIds": [],
+      "defaultPage": "LINKS",
+      "environment": {
+        "INGRESS_API_ENDPOINT": "https://ingress.linktr.ee/uLZfGRmpj7",
+        "INGRESS_API_INSTRUMENTATION_ENDPOINT": "https://ingress.linktr.ee/i/uLZfGRmpj7",
+        "LINK_TYPES_ASSETS_ENDPOINT": "https://link-types-assets.production.linktr.ee",
+        "STRIPE_PAYMENTS_PUBLISHABLE_KEY": "pk_live_51Oi0EUGvyzkgvy9S2SEkE4iyCqW6a9LFlqPgVqaz40N03QLLh6wKjOKLzGB0sDciohZzzTYNd07GRfhtySne076D00RGhZNo0d",
+        "META_IMAGE_URL": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/default-meta-image.png",
+        "RECAPTCHA_SITE_KEY": "6LdGYT4cAAAAANW9oE1Sa2AxBi8b9ZAbmvYBPnZm",
+        "RECAPTCHA_SITE_KEY_INVISIBLE": "6LcGlm0dAAAAAMfsVsJl3MZtjI-cKhBYzq5RPEo4",
+        "CLOUDFLARE_TURNSTILE_SITE_KEY": "0x4AAAAAACNVc8HcA4LUvsV-",
+        "GRAPHQL_API_ENDPOINT": "https://graph.linktr.ee/graphql",
+        "GRAPHQL_API_CLIENT_NAME": "profiles",
+        "GRAPHQL_API_CLIENT_VERSION": "1.0.0",
+        "BASE_PROFILE_URL": "https://linktr.ee",
+        "CDN_DISTRIBUTION_URL": "https://assets.production.linktr.ee/profiles/",
+        "LTAUTH_ENDPOINT": "https://public.ltauth.production.linktr.ee",
+        "CHAT_SERVICE_API_KEY": "rvs79kmnjdrs"
+      },
+      "contentGating": "none",
+      "messagingSmsAuthEnabled": false,
+      "messagingSmsAuthEnabledInternal": false,
+      "videoStructuredData": [],
+      "hasSensitiveContent": false,
+      "followerNotificationsEnabled": false,
+      "followerCapabilities": {
+        "isFollowingOtcRequired": false
+      },
+      "followerConsentRequirements": {
+        "isFollowSubscriptionConsentRequiredForFreeProduct": true,
+        "isFollowSubscriptionConsentRequiredForPaidProduct": true,
+        "followSubscriptionConsentInitialChecked": false
+      },
+      "isPreview": false,
+      "isConsumerPreviewModeEnabled": false,
+      "isBookmarkSaveIconEnabled": false,
+      "isFullScreenMobilePreview": false,
+      "statsigInitValues": {
+        "featureGates": {
+          "feature_consumer_app_profile_entry": true,
+          "messaging_sms_auth_internal": false,
+          "interstitial_ads_account_allowlist": false,
+          "data_feeds_profile_enabled": true,
+          "data_feeds_profile_self_url_enabled": true,
+          "earn--product_bundles": true,
+          "data_feeds_content_tiktok_enabled": false,
+          "data_feeds_content_youtube_enabled": true,
+          "earn--checkout_load_timing": true
+        },
+        "experiments": {
+          "trust--link-app-cookie-consent": {},
+          "earn--profiles--interstitial_ads_account_rollout": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_india": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_malaysia": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_argentina": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_colombia": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_philippines": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_thailand": {
+            "variant": "test"
+          },
+          "earn--profiles--interstitial_ads_account_rollout_egypt": {},
+          "earn--profiles--interstitial_ads_account_rollout_morocco": {},
+          "earn--profiles--interstitial_ads_account_rollout_turkey": {},
+          "earn--profiles--interstitial_ads_account_rollout_peru": {},
+          "earn--profiles--interstitial_ads_account_rollout_chile": {},
+          "earn--profiles--interstitial_ads_account_rollout_brazil": {},
+          "mobile--messaging_redesign": {},
+          "earn--checkout_cta_copy": {
+            "variant": ""
+          }
+        },
+        "layers": {
+          "profile--signup--footer_cta_button": {
+            "footer_cta_button_key": "control",
+            "footer_cta_button_label": "Create your Linktree",
+            "footer_cta_button_url_path": "",
+            "footer_cta_button_color": "white"
+          }
+        },
+        "dynamicConfigs": {
+          "thanksco_manual_sponsorships": {
+            "data": [
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Hulu",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_HULU",
+                "commissionAmount": 6,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_HULU",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/hulu.webp",
+                "metadata": {
+                  "description": "Attention serial show-watchers and champions of the remote. Grab your trusty binge-watching blanket & enjoy Hulu free",
+                  "previewSubtitle": "30 days of free Hulu",
+                  "previewTitle": "Enjoy 30 days of Hulu for FREE",
+                  "termsAndConditions": "Free trial offer valid for new and eligible returning subscribers only. Cancel anytime. Additional terms apply.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/hulu.webp",
+                  "vendorThemeColor": "#000000"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Enjoy 30 days of Hulu for FREE",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_13b2ead4-3743-4a65-8515-0fda7d40",
+                "vendor": "Hulu",
+                "vendorDisplayName": "Hulu"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "HelloFresh",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_HELLOFRESH",
+                "commissionAmount": 95.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_HELLOFRESH",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/hellofresh.webp",
+                "metadata": {
+                  "description": "Enjoy the convenience of farm-fresh produce & proteins delivered to your door. The ultimate dinner hack thats quicker than takeout! *Free meals applied as discount on first box, new subscribers only, varies by plan.",
+                  "previewSubtitle": "Free meals from HelloFresh",
+                  "previewTitle": "Claim up to 10 free meals*",
+                  "termsAndConditions": "'Free Ready Made Meals’ offer valid for new and existing customers with qualifying auto-renewing subscription purchase.‘Free Ready Made Meals ’ offer is based on a limit of one free Ready Made Meal per box post-subscription purchase, while supplies last. Must subscribe by April 22, 2025 in order to redeem. If subscription is canceled, this offer becomes invalid and will not be reinstated upon reactivation. Offer only valid for new customers with qualifying auto-renewing subscription purchase. ‘Up to 10 Free Meals’ offer is based on total discount given on first box for a 4-person, 5-recipe plan, and expires 28 days after offer purchase at 11:59 PM ET. Customers who purchase a plan of greater value will receive more than 10 free meals, while customers who purchase a plan of lesser value will receive less than 10 free meals. Shipping fee applies on all deliveries after the first box. Not valid on premiums, meal upgrades, add-ons, taxes or shipping fees. May not be combined with gift cards or any other promotion. No cash value. Void outside the U.S. and where prohibited. Offer cannot be sold or otherwise bartered. HelloFresh has the right to end or modify any offer at any time. Additional restrictions may apply. See https://www.hellofresh.com/termsandconditions for more.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/hellofresh.webp",
+                  "vendorThemeColor": "#96DC14"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Claim 10 free meals* from HelloFresh",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_69fdb724-9185-4f25-b27c-ff1815a2",
+                "vendor": "HelloFresh",
+                "vendorDisplayName": "HelloFresh"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "SavageXFenty",
+                "catalogInstanceId": "CJ_SPONSORSHIP_SAVAGE_X_FENTY",
+                "commissionAmount": 17,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "CJ_SPONSORSHIP_SAVAGE_X_FENTY",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/savage-x-fenty.jpg",
+                "metadata": {
+                  "description": "Become a new Savage X Rewards Member to claim your offer and always have access to exclusive rewards — like up to 25% off full-price styles, a 15% discount on Fenty Beauty + Fenty Skin, and so much more. Savage X Fenty celebrates confidence and individuality with sexy lingerie, elevated sleepwear, and more—designed for everyone, every mood, and every occasion.",
+                  "previewSubtitle": "Savage X New Member Offer",
+                  "previewTitle": "Get 60% off Sitewide",
+                  "termsAndConditions": "Savage X Fenty is offering 60% Off Sitewide on your first purchase as a New Rewards Member for a limited time only at SavageX.com. Select styles. Not applicable on Boxes or Sets. May not be combined with any other offer, promotion, or discount. Nontransferable. Standard terms apply to shipping, returns and exchanges. Offer may be canceled or modified at any time without notice. Valid in the US and Canada.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/savagexfenty.jpg",
+                  "vendorThemeColor": "#C5B4E3"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get 60% off Sitewide",
+                "url": "https://www.kqzyfj.com/click-101093762-17072556",
+                "vendor": "SavageXFenty",
+                "vendorDisplayName": "Savage X Fenty"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Armra",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_ARMRA",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_ARMRA",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/armra.jpg",
+                "metadata": {
+                  "description": "Armra’s science‑driven colostrum concentrate gives you 400+ bioactive nutrients for daily resilience. Next‑gen bovine colostrum that fortifies gut, skin, and immunity.",
+                  "previewSubtitle": "30% off at ARMRA",
+                  "previewTitle": "Sip your way to stronger health with 30% off at ARMRA",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. ARMRA reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/armra.jpg",
+                  "vendorThemeColor": "#E1F681"
+                },
+                "price": 0,
+                "title": "Sip your way to stronger health with 30% off at ARMRA",
+                "type": "Food",
+                "url": "https://armra.com",
+                "vendor": "armra",
+                "vendorDisplayName": "Armra"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Omnilux Led",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_OMNILUX_LED",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_OMNILUX_LED",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/omnilux-led.jpg",
+                "metadata": {
+                  "description": "Unveil Your Glow with Omnilux. Clinically proven masks smooth wrinkles and calm acne in ten‑minute sessions.",
+                  "previewSubtitle": "10% off at Omnilux LED",
+                  "previewTitle": "Save 10% at Omnilux LED",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. Omninux LED reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/omnilux-led.jpg",
+                  "vendorThemeColor": "#D1FDEF"
+                },
+                "price": 0,
+                "title": "Save 10% at Omnilux LED",
+                "type": "Food",
+                "url": "https://omniluxled.com",
+                "vendor": "omniluxLed",
+                "vendorDisplayName": "Omnilux Led"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Ritual",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_RITUAL",
+                "commissionAmount": 42.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_RITUAL",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/ritual.jpg",
+                "metadata": {
+                  "description": "Ritual is a trusted leader in women’s health, known for its top-selling prenatal multivitamin both online and in stores. The brand sets a new standard in supplements with traceable science, transparent sourcing, and third-party certifications—giving women clarity on what they’re taking and why.",
+                  "previewSubtitle": "10% off at Ritual",
+                  "previewTitle": "Save 10% on Ritual Multivitamins Subscriptions",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/ritual.jpg",
+                  "vendorThemeColor": "#152B6F"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Save 10% on Ritual Multivitamins Subscriptions",
+                "url": "https://ritual.sjv.io/09RK9N",
+                "vendor": "Ritual",
+                "vendorDisplayName": "Ritual"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Factor",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_FACTOR",
+                "commissionAmount": 143,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_FACTOR",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/factor.webp",
+                "metadata": {
+                  "description": "Forget the empty fridge stare-down. Factor delivers fresh meals to your door. Just heat & eat!",
+                  "previewSubtitle": "Factor subscription discount",
+                  "previewTitle": "50% off Factor Meals",
+                  "termsAndConditions": "*Offer only valid for new Factor customers with qualifying auto-renewing subscription purchase. Offer discounts must be redeemed no later than 49 days after offer purchase at 11:59 PM ET. '50% Off' offer is based on 50% off your first box and 20% off your next 4 boxes. Discounts vary for other meal plans and sizes. Shipping fee applies on all deliveries. Not valid on premiums, meal upgrades, add-ons, taxes or shipping fees. May not be combined with gift cards or any other promotion. No cash value. Void outside the U.S. and where prohibited. Offer cannot be sold or otherwise bartered. Factor has the right to end or modify any offer at any time. Additional restrictions may apply. See https://www.factor75.com/terms for more details.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/factor.webp",
+                  "vendorThemeColor": "#000000"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "You've scored 50% OFF Factor 🤤",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_edcd813c-ccc5-492d-bd92-15719cc1",
+                "vendor": "Factor",
+                "vendorDisplayName": "Factor"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "SamsClub",
+                "catalogInstanceId": "RAKUTEN_SPONSORSHIP_SAMS_CLUB",
+                "commissionAmount": 12.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "RAKUTEN_SPONSORSHIP_SAMS_CLUB",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/sams-club.jpg",
+                "metadata": {
+                  "description": "Join now and receive $25 off a $50 Club membership for a final price of $25.",
+                  "previewSubtitle": "Sam's Club membership discount",
+                  "previewTitle": "Join now and get 50% off a Club membership",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/sams-club.jpg",
+                  "vendorThemeColor": "#0362AD"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Join now and get 50% off a Club membership",
+                "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1643829.7189369&type=3",
+                "vendor": "SamsClub",
+                "vendorDisplayName": "Sam's Club"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Curology",
+                "catalogInstanceId": "RAKUTEN_SPONSORSHIP_CUROLOGY",
+                "commissionAmount": 15.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "RAKUTEN_SPONSORSHIP_CUROLOGY",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/curology.jpg",
+                "metadata": {
+                  "description": "Get paired with one of our licensed dermatology providers for a personalized treatment plan that’s based on your skin’s unique needs—whether that’s acne, dark spots, rosacea, or early signs of aging. Just pay shipping and handling for $4.95.",
+                  "previewSubtitle": "First box free with Curology",
+                  "previewTitle": "Get your first box FREE with Curology!",
+                  "termsAndConditions": "Subject to medical consultation and subscription required. New subscribers only. Trial offer lasts 30 days. Restrictions apply. See website for full details and important safety information.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/curology.png",
+                  "vendorThemeColor": "#6F5CFF"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get your first box FREE with Curology!",
+                "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1802779.23&type=3",
+                "vendor": "Curology",
+                "vendorDisplayName": "Curology"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Acorns",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_ACORNS",
+                "commissionAmount": 35,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_ACORNS",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/acorns.webp",
+                "metadata": {
+                  "description": "Turn coffee runs into future funds by investing spare change from everyday purchases. Sign up & watch that bonus slide into your account.",
+                  "previewSubtitle": "$20 bonus with Acorns",
+                  "previewTitle": "Claim your $20 bonus with Acorns",
+                  "termsAndConditions": "To be eligible for this offer, you must be a first-time Acorns customer and have an account in good standing at all times between signup and the date the bonus is invested is made to your Acorns Invest Account. You must make a successful investment via the Recurring Investment feature (minimum of $5) within the first 5 days of the month following the month in which your Acorns account was verified. Bonuses will be invested into your account within 5 weeks of meeting offer qualifications. Acorns is only offered to US-residents who are 18 years of age or older. Acorns reserves the right to restrict or revoke this promotional offer at any time and without notice.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/acorns.webp",
+                  "vendorThemeColor": "#73CF3D"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Claim your $20 bonus with Acorns",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_6815c7b1-69e3-4fea-bc29-20a1ef08",
+                "vendor": "Acorns",
+                "vendorDisplayName": "Acorns"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Headspace",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_HEADSPACE",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_HEADSPACE",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/headspace.jpg",
+                "metadata": {
+                  "description": "Headspace brings accessible mental health support to everyone through their app, offering meditations, sleepcasts, movement, and focus tools. Their expert team—clinicians, producers, and data scientists—helps millions live healthier, more productive lives.",
+                  "previewSubtitle": "Headspace free trial",
+                  "previewTitle": "Sign up for Headspace today and get a 14 day free trial!",
+                  "termsAndConditions": "14 day free trial with annual subscription, 7 day free trial with monthly subscription.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/headspace.png",
+                  "vendorThemeColor": "#FF7300"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Sign up for Headspace Today and get a 14 day free trial!",
+                "url": "https://headspace.pxf.io/c/5163860/2494442/13686",
+                "vendor": "Headspace",
+                "vendorDisplayName": "Headspace"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "AAA",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_AAA",
+                "commissionAmount": 35,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_AAA",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/aaa.webp",
+                "metadata": {
+                  "description": "One tow could cost you more than this entire membership! Get 24/7 roadside assistance for 50% off, & savings on flights, hotels, & more!",
+                  "previewSubtitle": "AAA membership discount",
+                  "previewTitle": "Get 50% off AAA membership",
+                  "termsAndConditions": "Offer is only valid for NEW Members only. Your AAA Membership is automatically renewed each year to the payment card you provide upon completion of your Membership sign-up. You will receive an annual notice about 45 days prior to your renewal date, which notice will state the term of your next Membership period and the total dues to be charged to your card. You can manage your account, update your card information or cancel automatic renewal anytime by calling the number on the back of your Membership card or online at www.AAA.com/MyAccount. Roadside Assistance Disclaimer: Roadside Assistance is provided by independent facilities contracted by AAA. Coverage in taxis, limousines and other ride-sharing conveyances is excluded. Visit AAA.com/MemberHandbook for details about member benefits, including any limitations or restrictions. Offers, terms, conditions and policies are subject to change without notice. Savings partners subject to change. Waiting Period Disclaimer: Upon activation and with proper identification, AAA will provide regular AAA services and full privileges for the new member. Roadside benefits begin three days after payment of dues. Some restrictions apply. Associate Disclaimer: Associate memberships are available to the Primary member’s spouse, one other adult living in the household, and their children living at the same residence or away at school. Associate members must have the same type of membership as their Primary member, with the exception of Motorcycle.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/aaa.webp",
+                  "vendorThemeColor": "#FD000D"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get AAA membership for half the price!",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_9b1ab8ef-fcb3-4c4e-abbb-9f25409c",
+                "vendor": "AAA",
+                "vendorDisplayName": "AAA"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Upside",
+                "catalogInstanceId": "THANKSCO_SPONSORSHIP_UPSIDE",
+                "commissionAmount": 5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "THANKSCO_SPONSORSHIP_UPSIDE",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/upside.webp",
+                "metadata": {
+                  "description": "Fill up your tank and your wallet—get 30¢ per gallon cash back at Shell, Chevron, BP, and more with the Upside app ⛽🚗",
+                  "previewSubtitle": "Cash back on gas with Upside",
+                  "previewTitle": "Get 30 cents cash back per gallon of gas",
+                  "termsAndConditions": "For terms and conditions visit https://www.upside.com/data-and-security/terms",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/upside.webp",
+                  "vendorThemeColor": "#0547FF"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get 30¢/gal cash back on gas at major stations",
+                "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_411e3a4f-5b48-470a-b849-1c894b10",
+                "vendor": "Upside",
+                "vendorDisplayName": "Upside"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Equip Foods",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_EQUIP_FOODS",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_EQUIP_FOODS",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/equip-foods.jpg",
+                "metadata": {
+                  "description": "A Mighty Amount of Protein in Every Scoop. Equip’s doctor‑developed powders deliver 21 g of grass‑fed beef protein plus collagen in a gut‑friendly, bloat‑free blend—no whey, no junk.",
+                  "previewSubtitle": "15% off at Equip Foods",
+                  "previewTitle": "Get 15% off at Equip Foods",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. Equip Foods reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/equip-foods.jpg",
+                  "vendorThemeColor": "#D6F1FE"
+                },
+                "price": 0,
+                "title": "Get 15% off at Equip Foods",
+                "type": "Food",
+                "url": "https://www.equipfoods.com",
+                "vendor": "equipfoods",
+                "vendorDisplayName": "Equip Foods"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "FabFitFun",
+                "catalogInstanceId": "RAKUTEN_SPONSORSHIP_FAB_FIT_FUN",
+                "commissionAmount": 42.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "RAKUTEN_SPONSORSHIP_FAB_FIT_FUN",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/fabfitfun.jpg",
+                "metadata": {
+                  "description": "FabFitFun is a subscription box that delivers full-size beauty, wellness, fashion, and lifestyle products each season. Members get access to exclusive deals, customization options, and a community focused on self-care and discovery.",
+                  "previewSubtitle": "20% off at FabFitFun",
+                  "previewTitle": "20% Off the at FabFitFun with code INSIDER20",
+                  "termsAndConditions": "Valid only on new seasonal subscriptions",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/fabfitfun.jpg",
+                  "vendorThemeColor": "#F8C8BF"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "20% Off the at FabFitFun with code INSIDER20",
+                "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1429891.8&type=3&subid=0",
+                "vendor": "FabFitFun",
+                "vendorDisplayName": "FabFitFun"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "FabFitFun",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_FABLETICS",
+                "commissionAmount": 12,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_FABLETICS",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/fabletics.jpg",
+                "metadata": {
+                  "description": "Fabletics is a global activewear brand offering stylish, high-performance apparel for every body. With a flexible membership model, they deliver quality, affordability, and innovation in every outfit.",
+                  "previewSubtitle": "Fabletics first order discount",
+                  "previewTitle": "Get 80% off your first order when signing up to be a VIP!",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/fabletics.jpg",
+                  "vendorThemeColor": "#FBFD56"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get 80% off your first order when signing up to be a VIP!",
+                "url": "https://fabletics.sjv.io/c/5163860/951477/12340",
+                "vendor": "FabFitFun",
+                "vendorDisplayName": "FabFitFun"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "CLEARSTEM",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_CLEARSTEM",
+                "commissionAmount": 12.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_CLEARSTEM",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/clearstem.jpg",
+                "metadata": {
+                  "description": "Clean skincare that tackles acne and aging. Stem‑cell science plus zero pore‑cloggers equals breakout‑free, toxin‑free radiance.",
+                  "previewSubtitle": "15% off at CLEARSTEM",
+                  "previewTitle": "Get 15% off for cleaner skin at CLEARSTEM",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. CLEARSTEM reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/clearstem.jpg",
+                  "vendorThemeColor": "#FCD6D5"
+                },
+                "price": 0,
+                "title": "Get 15% off for cleaner skin at CLEARSTEM",
+                "type": "Food",
+                "url": "https://clearstem.com",
+                "vendor": "clearstem",
+                "vendorDisplayName": "CLEARSTEM"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "AgencySkincare",
+                "catalogInstanceId": "RAKUTEN_SPONSORSHIP_AGENCY",
+                "commissionAmount": 18.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "RAKUTEN_SPONSORSHIP_AGENCY",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/agency-skincare.jpg",
+                "metadata": {
+                  "description": "Anti-aging skincare made for you through custom prescription formulas, clinically proven ingredients, and licensed dermatology providers. Just pay shipping and handling for $4.95.",
+                  "previewSubtitle": "First box free with Agency",
+                  "previewTitle": "Get your first box FREE with Agency!",
+                  "termsAndConditions": "Subject to medical consultation and subscription required. New subscribers only. Trial offer lasts 30 days. Restrictions apply. See website for full details and important safety information.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/agency-skincare.png",
+                  "vendorThemeColor": "#FDF4A8"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get your first box FREE with Agency!",
+                "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1802780.9&type=3",
+                "vendor": "AgencySkincare",
+                "vendorDisplayName": "Agency Skincare"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "PurpleCarrot",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_PURPLE_CARROT",
+                "commissionAmount": 106.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_PURPLE_CARROT",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/purple-carrot.jpg",
+                "metadata": {
+                  "description": "Purple Carrot is a plant-based meal kit that makes it easy to cook delicious, nutritious vegan meals at home. With chef-designed recipes and fresh ingredients delivered to your door, eating more plants has never been simpler, or tastier.",
+                  "previewSubtitle": "Purple Carrot discount",
+                  "previewTitle": "50% off + Free Shipping at Purple Carrot! ",
+                  "termsAndConditions": "50% off + free shipping offer valid only on first shipment for new customers",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/purple-carrot.png",
+                  "vendorThemeColor": "#F5CEA3"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "50% off + Free Shipping at Purple Carrot!",
+                "url": "https://purple-carrot.wk5q.net/c/5163860/2060141/9141?u=https%3A%2F%2Fwww.purplecarrot.com%2Fpages%2Fitsgoodfood%3Fcoupon%3Dfresh50",
+                "vendor": "PurpleCarrot",
+                "vendorDisplayName": "Purple Carrot"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "DailyHarvest",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_DAILY_HARVEST",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_DAILY_HARVEST",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/daily-harvest.jpg",
+                "metadata": {
+                  "description": "Daily Harvest's High-Protein Smoothies are packed with 20 grams of plant-based protein per serving, ensuring you get the best nutrition without compromising on taste.",
+                  "previewSubtitle": "Daily Harvest subscription",
+                  "previewTitle": "Power Up with Daily Harvest's High-Protein Smoothies",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/daily-harvest.jpg",
+                  "vendorThemeColor": "#000000"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Power Up with Daily Harvest's High-Protein Smoothies",
+                "url": "https://dailyharvest.pxf.io/c/5163860/2928823/20086",
+                "vendor": "DailyHarvest",
+                "vendorDisplayName": "Daily Harvest"
+              },
+              {
+                "commissionAmount": 85,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED",
+                "id": "IMPACT_SPONSORSHIP_GOBBLE",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/gobble.jpg",
+                "metadata": {
+                  "description": "Gobble’s chef does all the prep work so you can cook a fresh, homemade dinner in just 15 minutes. Save $100 across 4 boxes + free shipping + free cookies on your first box",
+                  "previewSubtitle": "Gobble discount",
+                  "previewTitle": "Save $100 with Gobble",
+                  "termsAndConditions": "This promotion is valid online only at www.gobble.com/aff-100. Upon redemption, you will be enrolled in a weekly auto-renewal subscription, and you can stop deliveries at any time. $100 offer is valid for $30 off plus free shipping ($9.99 value) on your 1st order, and $20 off your 2nd order, $30 off your 3rd order, and $20 off your 4th order. Offer is valid on new subscriptions only and cannot be applied retroactively to previously placed orders or combined with other offers. One offer per household. Discount applies to the first 4 weeks of a subscription, and subsequent deliveries are billed at full price. Free shipping and free cookies apply to first box only. See www.gobble.com/terms for more information.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/gobble.jpg",
+                  "vendorThemeColor": "#FE8E4D"
+                },
+                "title": "Save $100 with Gobble",
+                "url": "https://gobble.sjv.io/c/5163860/2907410/5084"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Maev",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_MAEV",
+                "commissionAmount": 85,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_MAEV",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/maev.jpg",
+                "metadata": {
+                  "description": "The first and only human-grade, protein-rich, Raw Food that dogs go wild for. Dogs thrive on unprocessed, nutrient-dense whole foods and proteins. That’s why Maev's Raw Food is made with real ingredients you can name just by looking. And that’s it.",
+                  "previewSubtitle": "Maev first order discount",
+                  "previewTitle": "Save 10% on your First Maev Order!",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/maev.jpg",
+                  "vendorThemeColor": "#193613"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Save 10% on your First Maev Order!",
+                "url": "https://maevinc.sjv.io/c/5163860/2929162/27953",
+                "vendor": "Maev",
+                "vendorDisplayName": "Maev"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Zero Proof",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_ZERO_PROOF",
+                "commissionAmount": 12.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_ZERO_PROOF",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/zero-proof.jpg",
+                "metadata": {
+                  "description": "Curated non‑alcoholic spirits, wines & cocktails for every moment. From zero‑ABV whiskey to aperitif bundles, The Zero Proof lets your sober‑curious followers keep the ritual, but lose the booze.",
+                  "previewSubtitle": "15% off at The Zero Proof",
+                  "previewTitle": "15% off your favorite non-alcoholic spirits at The Zero Proof",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. The Zero Proof reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/zero-proof.jpg",
+                  "vendorThemeColor": "#FFE8CD"
+                },
+                "price": 0,
+                "title": "15% off your favorite non-alcoholic spirits at The Zero Proof",
+                "type": "Food",
+                "url": "https://thezeroproof.com",
+                "vendor": "zeroproof",
+                "vendorDisplayName": "Zero Proof"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "jlab",
+                "catalogInstanceId": "SUPERFILIATE_SPONSORSHIP_JLAB",
+                "commissionAmount": 8.5,
+                "commissionCurrency": "USD",
+                "commissionType": "PERCENT",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "SUPERFILIATE_SPONSORSHIP_JLAB",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/jlab.jpg",
+                "metadata": {
+                  "description": "Experience Sound Without Limits. JLab’s award‑winning audio gear delivers customizable sound, marathon battery life, and sleek design without the luxury markup. ",
+                  "previewSubtitle": "10% off at JLab",
+                  "previewTitle": "10% off JLab’s award‑winning audio gear",
+                  "termsAndConditions": "Affiliate discounts apply only to purchases made through your unique link or code and cannot be combined with other promotions or gift cards. JLab reserves the right to modify discounts and commissions, audit activity, or terminate the partnership at any time for non-compliance with program rules or FTC disclosure guidelines.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/jlab.jpg",
+                  "vendorThemeColor": "#00B2E3"
+                },
+                "price": 0,
+                "title": "10% off JLab’s award‑winning audio gear",
+                "type": "Food",
+                "url": "https://www.jlab.com",
+                "vendor": "jlab",
+                "vendorDisplayName": "jlab"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Talkspace",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_TALKSPACE",
+                "commissionAmount": 34,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_TALKSPACE",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/talkspace.jpg",
+                "metadata": {
+                  "description": "Talkspace is the most comprehensive and convenient way to take care of your mental health and wellness. We offer therapy for individuals, teens and couples, across a wide range of specialties. Thousands of licensed therapists, psychiatrists and nurse practitioners across all 50 states.",
+                  "previewSubtitle": "Talkspace discount",
+                  "previewTitle": "Get help with or without insurance. Use code SPACE80 for $80 off.",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/talkspace.jpg",
+                  "vendorThemeColor": "#015C65"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Get help with or without insurance. Use code SPACE80 for $80 off.",
+                "url": "https://talkspace.pxf.io/c/5163860/2548680/14729",
+                "vendor": "Talkspace",
+                "vendorDisplayName": "Talkspace"
+              },
+              {
+                "__typename": "CommerceStoreProduct",
+                "active": true,
+                "addedStandalone": false,
+                "brand": "Babbel",
+                "catalogInstanceId": "IMPACT_SPONSORSHIP_BABBEL",
+                "commissionAmount": 10,
+                "commissionCurrency": "USD",
+                "commissionType": "FIXED_PER_ORDER",
+                "currency": "USD",
+                "hasCommission": true,
+                "id": "IMPACT_SPONSORSHIP_BABBEL",
+                "image": "https://assets.production.linktr.ee/soco/sponsorship-banners/babbel.jpg",
+                "metadata": {
+                  "description": "And right now, Babbel is offering up to 55% off! Join over 15 million Babbel learners and start speaking a new language like you’ve always wanted.",
+                  "previewSubtitle": "Babbel discount",
+                  "previewTitle": "Start speaking a new language in just 3 weeks",
+                  "vendorIcon": "https://assets.production.linktr.ee/soco/vendor-icons/babbel.jpg",
+                  "vendorThemeColor": "#FF7535"
+                },
+                "price": 0,
+                "tags": [],
+                "title": "Start speaking a new language in just 3 weeks",
+                "url": "https://babbel.sjv.io/c/5163860/1432288/13589",
+                "vendor": "Babbel",
+                "vendorDisplayName": "Babbel"
+              }
+            ]
+          },
+          "mobile_in_app_browser_user_agents": {
+            "daum": [
+              "DaumApps/",
+              "DaumDevice/"
+            ],
+            "wechat": [
+              "MicroMessenger",
+              "Weixin",
+              "WeChat/"
+            ],
+            "naver": [
+              "NAVER(inapp"
+            ],
+            "kakaotalk": [
+              "KAKAOTALK"
+            ],
+            "linkedin": [
+              "LinkedInApp"
+            ],
+            "snapchat": [
+              "Snapchat/"
+            ],
+            "line": [
+              " Line/"
+            ],
+            "tiktok": [
+              "musical_ly",
+              "Bytedance",
+              "ByteLocale"
+            ],
+            "facebook": [
+              "FBAN/",
+              "FBAV/",
+              "FB_IAB/",
+              "FBIOS",
+              "FB4A"
+            ],
+            "instagram": [
+              "Instagram"
+            ],
+            "twitter": [
+              "Twitter for ",
+              "TwitterAndroid"
+            ]
+          }
+        }
+      },
+      "isInternalEmail": false,
+      "seoLinkedUsernames": [
+        "planet_lexyyy",
+        "macreatricebienaimee",
+        "1otaibi",
+        "morganasachetti",
+        "carlapiesdescalzos",
+        "_vivi0214",
+        "Hmprod77",
+        "meet.yuq",
+        "zursaneamientos9",
+        "naaaptr15",
+        "titanholo",
+        "clairebeiersdorf",
+        "colinvandenbroek",
+        "morekissing",
+        "lindamartinez_o",
+        "medad.team",
+        "rhodescollegesaca",
+        "www.bittu129112",
+        "thays.heleno",
+        "ittakes.2",
+        "beamsir",
+        "ttfarias95",
+        "equityperiodmovement",
+        "grdfsudest",
+        "builtinpink",
+        "3SECONDSKAPEKANBARU",
+        "pctuning",
+        "Camps.Company",
+        "velmoblack",
+        "Verticalmag",
+        "lifesourceglobal",
+        "biayb",
+        "mwoodi",
+        "eliveltonbragacontador",
+        "Keto.LifeStyle.Pro",
+        "ddorfpopday",
+        "Ecoflare",
+        "marinajunqueirabrand",
+        "richardlipman",
+        "jianmusic",
+        "gemeasdaarquitetura",
+        "essenzagenda",
+        "vapeandfriends_",
+        "latidoproductions",
+        "IJSingh"
+      ],
+      "trustedProfiles": [
+        {
+          "username": "eatpistakio",
+          "profileName": "eatpistakio"
+        },
+        {
+          "username": "thetiarawillis",
+          "profileName": "Tiara Willis"
+        },
+        {
+          "username": "byaimeekelly",
+          "profileName": "Aimee Kelly"
+        },
+        {
+          "username": "bozevstheworld",
+          "profileName": "Boze vs The World"
+        },
+        {
+          "username": "sagawards",
+          "profileName": "SAG Awards"
+        },
+        {
+          "username": "substackinc",
+          "profileName": "Substack"
+        },
+        {
+          "username": "keneurich",
+          "profileName": "Ken Eurich"
+        },
+        {
+          "username": "raedio",
+          "profileName": "Raedio"
+        },
+        {
+          "username": "bncmap",
+          "profileName": "BNC Map"
+        },
+        {
+          "username": "elan.media",
+          "profileName": "elan.media"
+        }
+      ],
+      "shouldNoIndex": false,
+      "dataFeedsProfileUrl": null,
+      "dataFeedsDerivedMetricsUrl": null,
+      "dataFeedsContentUrls": null,
+      "dataGrailContainerConfig": {
+        "containerId": "bdebe460-46f3-470f-8bb7-09929c22ee50",
+        "customerId": "b8f6c3bf-2519-4023-963a-974547789e46",
+        "snapchatCreativeKitConsentId": "1opgPhFpOU4TFoRWR1JSWP",
+        "metaPixelConsentId": "6StlrDkNFNcBNFbPe7JJRF",
+        "tiktokPixelConsentId": "1h9aMwwDHM0koRqcj6Qj83",
+        "googleAnalyticsConsentId": "3uHVvLaeoiEoDIJE633jmJ"
+      },
+      "datagrailConsentPreferences": {},
+      "blogBatchIndex": 2,
+      "latestBlogPosts": [
+        {
+          "title": "How YouTube creators can build stronger audience relationships",
+          "href": "https://linktr.ee/blog/youtube-creators-grow-audience-linktree"
+        },
+        {
+          "title": "How to promote a podcast: 10 practical tips",
+          "href": "https://linktr.ee/blog/grow-your-podcast-with-linktree"
+        },
+        {
+          "title": "Linktree launches new and improved YouTube features to help creators build more direct connections with their audiences",
+          "href": "https://linktr.ee/blog/linktree-youtube-creator-tools"
+        },
+        {
+          "title": "How to make a QR code for your Linktree",
+          "href": "https://linktr.ee/blog/how-to-make-a-qr-code"
+        },
+        {
+          "title": "Here’s how to schedule Instagram posts and save time",
+          "href": "https://linktr.ee/blog/schedule-instagram-posts"
+        },
+        {
+          "title": "Linktree Teams Up With Olivia Rodrigo’s Daisy Chain Fields to Turn Fandom Into a Chain of Support",
+          "href": "https://linktr.ee/blog/daisy-chain-fields-sticker-pack"
+        },
+        {
+          "title": "The Best Time to Set Up Your Linktree Is Before the Spotlight Hits",
+          "href": "https://linktr.ee/blog/set-up-linktree-before-spotlight"
+        }
+      ],
+      "googleAdConfig": {
+        "shouldShowAds": true,
+        "networkCode": "23324369058",
+        "interstitialAdUnitPath": "/production/web_interstitial",
+        "bannerAdUnitPath": "/production/web_banner",
+        "adNetwork": "Google"
+      },
+      "locale": "en",
+      "i18n": {
+        "resource": {}
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/[profile]",
+  "query": {
+    "country-code": "AR",
+    "profile": "sofia.strafile"
+  },
+  "buildId": "e9f7db9d9be1e8cb632c0933a2154fc78002d86f",
+  "assetPrefix": "https://assets.production.linktr.ee/profiles",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    78664,
+    63046,
+    19902
+  ],
+  "gssp": true,
+  "locale": "en",
+  "locales": [
+    "en"
+  ],
+  "defaultLocale": "en",
+  "scriptLoader": []
+}

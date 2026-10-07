@@ -1,0 +1,519 @@
+{
+  "cliente": {
+    "nombre": "Sofía Strafile",
+    "handle_instagram": "@sofiastrafile",
+    "rubro": "Asesora de imagen y colorimetría",
+    "medicion": {
+      "fecha": "2026-10-07T02:2x-03:00",
+      "transporte": "Chrome real headless (playwright channel=chrome), sin sesión ni API",
+      "red_ip": "181.1.45.41"
+    }
+  },
+  "instagram": {
+    "estado": "MEDIDO",
+    "url": "https://www.instagram.com/sofiastrafile/?hl=es",
+    "nombre": "Sofía Strafile | Asesora de imagen y colorimetría",
+    "verificada": true,
+    "seguidores": 163805,
+    "seguidos": 570,
+    "seguidos_declarado_en_meta": 579,
+    "publicaciones": 122,
+    "bio": "Imagen ✨Colorimetría ✨Estilo personal.\nAtención Online al 🌏\n🇦🇷",
+    "external_url": null,
+    "link_en_bio": "https://linktr.ee/sofia.strafile",
+    "discrepancias": [
+      "La meta declara 579 seguidos y el JSON embebido 570: dos medidas de Instagram no coinciden (se reporta el numero exacto del JSON).",
+      "La meta declara 164K y el JSON embebido 163.805."
+    ],
+    "destacados": [
+      "Ustedes"
+    ],
+    "capturas": [
+      "ig-perfil.png"
+    ]
+  },
+  "alcance_feed": {
+    "estado": "MEDIDO (parcial)",
+    "publicaciones": [
+      {
+        "shortcode": "DZQioo0n1V6",
+        "tipo": "post",
+        "fecha": null,
+        "iso": "2026-06-06T21:05:45.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el June 6, 2026: \"Y un día me gradué en España, y ahí va otro sueño cumplido 🤎\n\nMe vuelvo a Argentina con ",
+          "sofiastrafile el June 6, 2026: \"Y un día me gradué en España, y ahí va otro sueño cumplido 🤎\n\nMe vuelvo a Argentina con ",
+          "sofiastrafile el June 6, 2026: \"Y un día me gradué en España, y ahí va otro sueño cumplido 🤎\n\nMe vuelvo a Argentina con "
+        ]
+      },
+      {
+        "shortcode": "DeAcpJQRaqx",
+        "tipo": "reel",
+        "fecha": "October 2, 2026",
+        "iso": "2026-10-03T04:20:50.000Z",
+        "likes": 913,
+        "comentarios": 66,
+        "conteo_publico": true,
+        "intentos": [
+          "913 likes, 66 comments - sofiastrafile el October 2, 2026: \"En colorimetría, el rubio no es para todas las estaciones, a"
+        ]
+      },
+      {
+        "shortcode": "Dd63Qk1pc9e",
+        "tipo": "reel",
+        "fecha": "September 30, 2026",
+        "iso": "2026-09-30T17:24:42.000Z",
+        "likes": 287,
+        "comentarios": 82,
+        "conteo_publico": true,
+        "intentos": [
+          "287 likes, 82 comments - sofiastrafile el September 30, 2026: \"Hablemos de lo linda que es Celeste Cid usando sus colore"
+        ]
+      },
+      {
+        "shortcode": "Ddw_OOSRkj0",
+        "tipo": "reel",
+        "fecha": null,
+        "iso": "2026-09-26T21:23:10.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 26, 2026: \"¿Negro sí o negro no? #quemepongo #colorimetria\". ",
+          "sofiastrafile el September 26, 2026: \"¿Negro sí o negro no? #quemepongo #colorimetria\". ",
+          "sofiastrafile el September 26, 2026: \"¿Negro sí o negro no? #quemepongo #colorimetria\". "
+        ]
+      },
+      {
+        "shortcode": "DduTPhsHyoq",
+        "tipo": "post",
+        "fecha": null,
+        "iso": "2026-09-25T20:18:23.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 25, 2026: \"Pensas que la colorimetría es una estafa?\n\n#colorimetria #quemepongo\". ",
+          "sofiastrafile el September 25, 2026: \"Pensas que la colorimetría es una estafa?\n\n#colorimetria #quemepongo\". ",
+          "sofiastrafile el September 25, 2026: \"Pensas que la colorimetría es una estafa?\n\n#colorimetria #quemepongo\". "
+        ]
+      },
+      {
+        "shortcode": "DdmnQAaxhMt",
+        "tipo": "reel",
+        "fecha": null,
+        "iso": "2026-09-22T20:40:24.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 22, 2026: \"Lo linda que es Emilia y más aún cuando usa sus colores 😍😍\n\n¿Te gustaría saber cua",
+          "sofiastrafile el September 22, 2026: \"Lo linda que es Emilia y más aún cuando usa sus colores 😍😍\n\n¿Te gustaría saber cua",
+          "sofiastrafile el September 22, 2026: \"Lo linda que es Emilia y más aún cuando usa sus colores 😍😍\n\n¿Te gustaría saber cua"
+        ]
+      },
+      {
+        "shortcode": "DdkS75XRHEh",
+        "tipo": "post",
+        "fecha": null,
+        "iso": "2026-09-21T23:21:25.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 21, 2026: \"Confirmen 🙋🏻‍♀️\n\n#quemepongo\". ",
+          "sofiastrafile el September 21, 2026: \"Confirmen 🙋🏻‍♀️\n\n#quemepongo\". ",
+          "sofiastrafile el September 21, 2026: \"Confirmen 🙋🏻‍♀️\n\n#quemepongo\". "
+        ]
+      },
+      {
+        "shortcode": "DdcdhrPxElP",
+        "tipo": "reel",
+        "fecha": null,
+        "iso": "2026-09-18T22:03:08.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 18, 2026: \"Mitos en colorimetría #asesoradeimagen #colorimetria #quemepongo\". ",
+          "sofiastrafile el September 18, 2026: \"Mitos en colorimetría #asesoradeimagen #colorimetria #quemepongo\". ",
+          "sofiastrafile el September 18, 2026: \"Mitos en colorimetría #asesoradeimagen #colorimetria #quemepongo\". "
+        ]
+      },
+      {
+        "shortcode": "DchMSmhxAx_",
+        "tipo": "reel",
+        "fecha": "August 26, 2026",
+        "iso": "2026-08-26T21:40:46.000Z",
+        "likes": 329,
+        "comentarios": 182,
+        "conteo_publico": true,
+        "intentos": [
+          "329 likes, 182 comments - sofiastrafile el August 26, 2026: \"Hay colores que resaltan lo mejor de nosotras 🤎\n\nNecesitás "
+        ]
+      },
+      {
+        "shortcode": "Dc4VVgeRAz5",
+        "tipo": "reel",
+        "fecha": "September 4, 2026",
+        "iso": "2026-09-04T21:17:54.000Z",
+        "likes": 1306,
+        "comentarios": 162,
+        "conteo_publico": true,
+        "intentos": [
+          "1,306 likes, 162 comments - sofiastrafile el September 4, 2026: \"Lo linda que es Luisana Lopilato y más aún cuando usa s"
+        ]
+      },
+      {
+        "shortcode": "DdXa36gDRhT",
+        "tipo": "post",
+        "fecha": null,
+        "iso": "2026-09-16T23:02:31.000Z",
+        "likes": null,
+        "comentarios": null,
+        "conteo_publico": false,
+        "intentos": [
+          "sofiastrafile el September 16, 2026: \"Durante mucho tiempo pensé que encontrar mi estilo era saber qué me quedaba bien y",
+          "sofiastrafile el September 16, 2026: \"Durante mucho tiempo pensé que encontrar mi estilo era saber qué me quedaba bien y",
+          "sofiastrafile el September 16, 2026: \"Durante mucho tiempo pensé que encontrar mi estilo era saber qué me quedaba bien y"
+        ]
+      },
+      {
+        "shortcode": "DdPnm5yREOd",
+        "tipo": "reel",
+        "fecha": "September 13, 2026",
+        "iso": "2026-09-13T22:19:58.000Z",
+        "likes": 357,
+        "comentarios": 73,
+        "conteo_publico": true,
+        "intentos": [
+          "357 likes, 73 comments - sofiastrafile el September 13, 2026: \"Lo linda que es Tini y más aún cuando usa sus colores 😍😍\n"
+        ]
+      }
+    ],
+    "publicaciones_con_conteo_publico": 5,
+    "publicaciones_con_me_gusta_ocultos": 7,
+    "like_and_view_counts_disabled_en_el_post_medido": true,
+    "resumen": {
+      "seguidores": 163805,
+      "publicaciones_medidas": 5,
+      "publicaciones_sin_conteo_publico": 7,
+      "ventana_fechas": [
+        "2026-08-26",
+        "2026-10-03"
+      ],
+      "dias": 37,
+      "publicaciones_por_semana": 0.95,
+      "likes_min": 287,
+      "likes_mediana": 357,
+      "likes_max": 1306,
+      "likes_promedio": 638,
+      "comentarios_total": 565,
+      "comentarios_mediana": 82,
+      "tasa_interaccion_pct_mediana": 0.218,
+      "tasa_interaccion_pct_mejor": 0.797,
+      "referencia_rubro_pct": [
+        1.0,
+        3.0
+      ],
+      "referencia_estado": "INFERIBLE",
+      "nota": "La tasa usa solo las publicaciones cuyo conteo es publico; en las demas la cuenta tiene los me gusta ocultos (like_and_view_counts_disabled), asi que el alcance real de la cuenta NO es medible desde afuera.",
+      "sesgo": "La muestra no es aleatoria: puede sobrerrepresentar las piezas mas fuertes."
+    }
+  },
+  "tiktok": {
+    "handle_real": "@sofiastrafile",
+    "seguidores": "7953",
+    "me_gusta": "120.4K",
+    "handle_en_su_linktree": "@sofistrafile",
+    "handle_en_linktree_existe": false,
+    "fuente": "tiktok-busqueda.txt (bloque Usuarios de la busqueda publica)",
+    "estado": "MEDIDO",
+    "nota": "El perfil restringe la vista sin sesion; los numeros salen del bloque de busqueda."
+  },
+  "linktree": {
+    "estado": "MEDIDO",
+    "url": "https://linktr.ee/sofia.strafile",
+    "plan": "gratuito (la pagina muestra el chrome de Linktree y el CTA 'Unete a sofia.strafile en Linktree')",
+    "renderizado_en_pantalla": {
+      "botones": [
+        {
+          "titulo": "Asesoría de imagen",
+          "url": "https://wa.me/p/23924291647213034/5493416153151",
+          "donde": "boton"
+        },
+        {
+          "titulo": "WhatsApp ",
+          "url": "https://wa.link/xii63u",
+          "donde": "boton"
+        },
+        {
+          "titulo": "Colorimetría",
+          "url": "https://wa.me/p/25673960648860647/5493416153151",
+          "donde": "boton"
+        }
+      ],
+      "iconos": [
+        {
+          "titulo": "icono INSTAGRAM",
+          "url": "https://instagram.com/sofiastrafile",
+          "donde": "icono"
+        },
+        {
+          "titulo": "icono TIKTOK",
+          "url": "https://tiktok.com/@sofistrafile",
+          "donde": "icono"
+        },
+        {
+          "titulo": "icono WHATSAPP",
+          "url": "https://api.whatsapp.com/send?phone=543416153151",
+          "donde": "icono"
+        }
+      ],
+      "total_piezas_propias": 6,
+      "capturas": [
+        "linktree.png"
+      ],
+      "texto_visible": "linktree-texto.txt"
+    },
+    "publicidad_ajena_en_el_payload": [
+      {
+        "titulo": "Enjoy 30 days of Hulu for FREE",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_13b2ead4-3743-4a65-8515-0fda7d40",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Claim 10 free meals* from HelloFresh",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_69fdb724-9185-4f25-b27c-ff1815a2",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get 60% off Sitewide",
+        "url": "https://www.kqzyfj.com/click-101093762-17072556",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Sip your way to stronger health with 30% off at ARMRA",
+        "url": "https://armra.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Save 10% at Omnilux LED",
+        "url": "https://omniluxled.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Save 10% on Ritual Multivitamins Subscriptions",
+        "url": "https://ritual.sjv.io/09RK9N",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "You've scored 50% OFF Factor 🤤",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_edcd813c-ccc5-492d-bd92-15719cc1",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Join now and get 50% off a Club membership",
+        "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1643829.7189369&type=3",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get your first box FREE with Curology!",
+        "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1802779.23&type=3",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Claim your $20 bonus with Acorns",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_6815c7b1-69e3-4fea-bc29-20a1ef08",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Sign up for Headspace Today and get a 14 day free trial!",
+        "url": "https://headspace.pxf.io/c/5163860/2494442/13686",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get AAA membership for half the price!",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_9b1ab8ef-fcb3-4c4e-abbb-9f25409c",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get 30¢/gal cash back on gas at major stations",
+        "url": "https://thanks.is/direct/plat7850a264-716e-4c31-9ac5-16e9f13e/int_411e3a4f-5b48-470a-b849-1c894b10",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get 15% off at Equip Foods",
+        "url": "https://www.equipfoods.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "20% Off the at FabFitFun with code INSIDER20",
+        "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1429891.8&type=3&subid=0",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get 80% off your first order when signing up to be a VIP!",
+        "url": "https://fabletics.sjv.io/c/5163860/951477/12340",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get 15% off for cleaner skin at CLEARSTEM",
+        "url": "https://clearstem.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get your first box FREE with Agency!",
+        "url": "https://click.linksynergy.com/fs-bin/click?id=5lRxBRhs1h0&offerid=1802780.9&type=3",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "50% off + Free Shipping at Purple Carrot!",
+        "url": "https://purple-carrot.wk5q.net/c/5163860/2060141/9141?u=https%3A%2F%2Fwww.purplecarrot.com%2Fpages%2Fitsgoodfood%3Fcoupon%3Dfresh50",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Power Up with Daily Harvest's High-Protein Smoothies",
+        "url": "https://dailyharvest.pxf.io/c/5163860/2928823/20086",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Save $100 with Gobble",
+        "url": "https://gobble.sjv.io/c/5163860/2907410/5084",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Save 10% on your First Maev Order!",
+        "url": "https://maevinc.sjv.io/c/5163860/2929162/27953",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "15% off your favorite non-alcoholic spirits at The Zero Proof",
+        "url": "https://thezeroproof.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "10% off JLab’s award‑winning audio gear",
+        "url": "https://www.jlab.com",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Get help with or without insurance. Use code SPACE80 for $80 off.",
+        "url": "https://talkspace.pxf.io/c/5163860/2548680/14729",
+        "donde": "payload (no renderizado)"
+      },
+      {
+        "titulo": "Start speaking a new language in just 3 weeks",
+        "url": "https://babbel.sjv.io/c/5163860/1432288/13589",
+        "donde": "payload (no renderizado)"
+      }
+    ],
+    "publicidad_ajena_total": 26,
+    "hallazgo": "Su unica casa digital es un Linktree gratuito con 3 botones y los 3 llevan al mismo WhatsApp: ningun precio, ningun servicio por escrito, ningun dato que quede. Ademas la pagina trabaja para Linktree: el CTA 'Unete a sofia.strafile en Linktree' le vende Linktree a su propia audiencia de 163 mil personas. En el payload hay 26 enlaces de afiliados de terceros (Hulu, HelloFresh, Curology, Babbel...) que NO se renderizan en la vista publica: van en el JSON, no en la pantalla. No listarlos como suyos.",
+    "tiktok_roto": {
+      "en_su_pagina": "https://tiktok.com/@sofistrafile",
+      "responde": false,
+      "real": "@sofiastrafile",
+      "estado": "MEDIDO (TikTok: 'No se pudo encontrar esta cuenta')"
+    }
+  },
+  "whatsapp": {
+    "estado": "MEDIDO",
+    "numero": "+54 9 341 615-3151",
+    "codigo_area": "341 = Rosario, Santa Fe",
+    "catalogos": [
+      {
+        "nombre": "PROGRAMA 1:1 ASESORÍA DE IMAGEN",
+        "url": "https://wa.me/p/23924291647213034/5493416153151"
+      },
+      {
+        "nombre": "COLORIMETRÍA 1:1",
+        "url": "https://wa.me/p/25673960648860647/5493416153151"
+      }
+    ],
+    "precios_publicados": null,
+    "precios_estado": "NO VERIFICADO",
+    "nota": "Los catalogos de WhatsApp no exponen precio fuera de la app: no se pudo verificar si publica precios ni cuales son."
+  },
+  "google_maps": {
+    "estado": "MEDIDO (sin coincidencia)",
+    "buscas_realizadas": [
+      "Sofía Strafile asesora de imagen",
+      "Sofía asesora de imagen personal shopping Buenos Aires"
+    ],
+    "coincidencia_propia": false,
+    "resultado_de_la_primera_busqueda": "Sofía Schwarzenberg Asesora de imagen (Vitacura, Chile) — tercero",
+    "hallazgo": "No tiene ficha de Google Maps. Cero descubrimiento por busqueda local.",
+    "capturas": [
+      "maps-strafile.png",
+      "maps-sofia_asesora.png"
+    ]
+  },
+  "dominios_con_el_nombre": {
+    "estado": "MEDIDO por whois TCP (NIC.ar puerto 43 / Verisign puerto 43)",
+    "sofiastrafile.com.ar": {
+      "disponible": true,
+      "crudo": "El dominio no se encuentra registrado en NIC Argentina"
+    },
+    "sofiastrafile.ar": {
+      "disponible": true,
+      "crudo": "El dominio no se encuentra registrado en NIC Argentina"
+    },
+    "sofiastrafile.com": {
+      "disponible": true,
+      "crudo": "No match for \"SOFIASTRAFILE.COM\""
+    },
+    "sofia-strafile.com": {
+      "disponible": true,
+      "crudo": "No match"
+    },
+    "strafile.com": {
+      "disponible": false,
+      "de_quien": "tercero — registrado 2024-06-05, registrar Squarespace Domains II LLC"
+    },
+    "sofia.com.ar": {
+      "disponible": false,
+      "de_quien": "tercero — LOPEZ FUENTE LUCIANO, registrado 2016, vence 2027-07-26"
+    },
+    "sofia.com": {
+      "disponible": false,
+      "de_quien": "tercero — registrado 1995-12-26 (GoDaddy/Atom)"
+    },
+    "hallazgo": "El nombre exacto que ya usa (@sofiastrafile) esta libre en .com.ar, .ar y .com."
+  },
+  "sitio_web_propio": {
+    "tiene": false,
+    "estado": "MEDIDO",
+    "evidencia": "La bio solo linkea un Linktree; ningun enlace propio es un sitio."
+  },
+  "no_medido": [
+    {
+      "que": "Cantidad de seguidores reales vs comprados",
+      "por_que": "Instagram solo publica el total. Se contrasta con el alcance medible y se declara la diferencia.",
+      "estado": "NO VERIFICADO"
+    },
+    {
+      "que": "Precios de sus programas",
+      "por_que": "Los catalogos de WhatsApp no los exponen fuera de la app.",
+      "estado": "NO VERIFICADO"
+    },
+    {
+      "que": "Presencia organica en Google por su nombre",
+      "por_que": "Google devolvio el captcha 'trafico inusual' desde esta red (IP 181.1.45.41).",
+      "estado": "NO VERIFICADO"
+    },
+    {
+      "que": "Alcance de las 7 publicaciones con me gusta ocultos",
+      "por_que": "La cuenta tiene like_and_view_counts_disabled: Instagram no publica el numero.",
+      "estado": "NO VERIFICADO por diseño"
+    },
+    {
+      "que": "Localidad real (CABA vs Rosario)",
+      "por_que": "Su bio dice 'Atención Online', sin direccion; el telefono es de Rosario (341).",
+      "estado": "NO VERIFICADO"
+    }
+  ]
+}

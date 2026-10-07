@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS propio del sitio ──────────────────────────────────────────────────
+   Va fuera de @layer a propósito: así Tailwind no lo púrga. Es el bloque
+   <style> del mockup, con la misma tipografía y los mismos efectos. */
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.serif-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Vignette sutil, en capa fija, para dar profundidad. Sin imágenes externas ni data-URI
+   con url(): el sitio no referencia ningún archivo que no sea suyo. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(120% 80% at 50% 0%, rgba(31, 58, 95, 0.035), transparent 70%);
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Campos minimalistas (sin borde, sólo línea inferior) */
+.input-minimal {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid #cbd5e1 !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  transition: border-color 0.3s ease;
+}
+
+.dark .input-minimal {
+  border-bottom-color: #475569 !important;
+  color: white !important;
+}
+
+.input-minimal:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #BC204B !important;
+}
+
+.input-minimal::placeholder {
+  color: #8A8F96;
+  font-weight: 300;
+}
+
+/* Aparición al hacer scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.12s; }
+.reveal-delay-2 { transition-delay: 0.24s; }
+.reveal-delay-3 { transition-delay: 0.36s; }
+
+/* Si el navegador no soporta IntersectionObserver o el usuario pide menos
+   movimiento, el contenido se muestra igual: nunca se esconde texto. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .btn-pulse, .whatsapp-float { animation: none; }
+  body::after { display: none; }
+}
+
+/* Menú mobile */
+#mobile-menu { display: none; }
+#mobile-menu.open { display: block; }
+
+/* Tarjetas de testimonio */
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(31, 58, 95, 0.1);
+}
+
+/* Pulso del CTA principal */
+@keyframes pulse-accent {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(188, 32, 75, 0.35); }
+  60%      { box-shadow: 0 0 0 10px rgba(188, 32, 75, 0); }
+}
+
+.btn-pulse { animation: pulse-accent 2.8s infinite; }
+
+/* Botón flotante de WhatsApp */
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: pulse-whatsapp 2s infinite;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+  color: white;
+}
+
+@keyframes pulse-whatsapp {
+  0%   { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+  70%  { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+/* Foco visible para navegar con teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #BC204B;
+  outline-offset: 2px;
+}
+
+/* Contraste: el gris 400 original (#a8adb5) no llega a 4.5:1 sobre el fondo
+   claro. Los textos chicos que lo usaban pasan al 600 (#6e7278), que sí llega. */
+.texto-tenue { color: #6e7278; }
+.dark .texto-tenue { color: #a8adb5; }

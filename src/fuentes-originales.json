@@ -1,0 +1,78 @@
+{
+  "playfair": {
+    "archivos": [
+      [
+        "playfair-0.woff2",
+        21140
+      ],
+      [
+        "playfair-1.woff2",
+        9112
+      ],
+      [
+        "playfair-2.woff2",
+        21152
+      ],
+      [
+        "playfair-3.woff2",
+        38404
+      ],
+      [
+        "playfair-4.woff2",
+        38804
+      ],
+      [
+        "playfair-5.woff2",
+        23304
+      ],
+      [
+        "playfair-6.woff2",
+        23380
+      ],
+      [
+        "playfair-7.woff2",
+        9568
+      ]
+    ]
+  },
+  "inter": {
+    "archivos": [
+      [
+        "inter-0.woff2",
+        18748
+      ],
+      [
+        "inter-1.woff2",
+        48256
+      ],
+      [
+        "inter-2.woff2",
+        18996
+      ],
+      [
+        "inter-3.woff2",
+        85068
+      ],
+      [
+        "inter-4.woff2",
+        25960
+      ],
+      [
+        "inter-5.woff2",
+        11232
+      ],
+      [
+        "inter-6.woff2",
+        10252
+      ]
+    ]
+  },
+  "material": {
+    "archivos": [
+      [
+        "material-0.woff2",
+        128352
+      ]
+    ]
+  }
+}
