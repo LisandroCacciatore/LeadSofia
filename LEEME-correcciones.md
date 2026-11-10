@@ -113,6 +113,12 @@ URL en `<meta name="lead-endpoint" content="https://…">` del `<head>`. El form
 hacer `POST` JSON con `{nombre, whatsapp, email, interes, interesLabel, mensaje, consent, origen,
 utm, referrer, pagina, enviado}` y cambia el mensaje de éxito. No hay que tocar nada más.
 
+**Cómo llega cada consulta al WhatsApp de Sofía:** la **primera línea** del mensaje es la etiqueta
+(`Consulta web · colorimetría`) porque es lo único que se ve en la lista de chats, sin abrir la
+conversación. Los enlaces que abren WhatsApp sin pasar por el formulario dicen `(web)`. Así toda
+consulta originada en el sitio queda marcada sin ninguna API de por medio. El uso de etiquetas y del
+catálogo para vender está en `00-auditoria/remedicion-2026-11/ETIQUETAS-Y-CATALOGO-WHATSAPP.md`.
+
 **Verificado**
 
 ```

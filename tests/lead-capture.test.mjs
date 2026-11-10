@@ -55,12 +55,24 @@ test('el mensaje de WhatsApp lleva los datos ordenados', () => {
     interes: 'programa-renovacion',
     mensaje: 'Quiero renovar el guardarropa antes de un viaje.',
   });
-  assert.match(texto, /^Consulta desde el sitio web/);
+  assert.match(texto, /^Consulta web · programa Renovación/);
   assert.match(texto, /Nombre: Marina Gómez/);
   assert.match(texto, /WhatsApp: \+54 9 341 555 1234/);
   assert.match(texto, /Email: marina@ejemplo\.com/);
   assert.match(texto, /Interés: Programa Renovación/);
   assert.match(texto, /Mensaje: Quiero renovar el guardarropa/);
+});
+
+test('la etiqueta va en la PRIMERA línea: es lo único que se ve en la lista de chats', () => {
+  const texto = LC.buildLeadMessage({ nombre: 'Ana', whatsapp: '3415551234', interes: 'guardarropa' });
+  const primera = texto.split('\n')[0];
+  assert.equal(primera, 'Consulta web · guardarropa');
+  assert.ok(primera.length <= 40, `la vista previa de WhatsApp corta cerca de 40: "${primera}"`);
+});
+
+test('sin interés reconocido la etiqueta no se rompe', () => {
+  const texto = LC.buildLeadMessage({ nombre: 'Ana', whatsapp: '3415551234', interes: 'otro-cosa' });
+  assert.equal(texto.split('\n')[0], 'Consulta web');
 });
 
 test('el mensaje omite el email vacío y el mensaje vacío', () => {
@@ -195,6 +207,18 @@ test('no se colaron dominios de terceros (criterio C18)', () => {
   );
   const raros = [...hosts].filter((h) => !permitidos.has(h));
   assert.deepEqual(raros, [], `dominios no declarados: ${raros.join(', ')}`);
+});
+
+test('todo enlace directo a WhatsApp desde la web llega marcado con "(web)"', () => {
+  // Los enlaces que NO pasan por el formulario (cabecera, flotante, pie) también
+  // tienen que avisar que vienen de la web: si no, esos contactos quedan sin marcar.
+  // Excepción: el pedido de derechos sobre los datos (sección #privacidad) no es un lead.
+  const textos = Array.from(html.matchAll(/wa\.me\/\d+\?text=([^"&]+)/g))
+    .map((m) => decodeURIComponent(m[1]))
+    .filter((t) => !/por mis datos/i.test(t));
+  assert.ok(textos.length >= 4, `esperaba varios enlaces con texto, encontré ${textos.length}`);
+  const sinMarca = textos.filter((t) => !t.includes('(web)'));
+  assert.deepEqual(sinMarca, [], `enlaces sin marca de origen: ${sinMarca.join(' | ')}`);
 });
 
 test('el módulo no deja direcciones locales en el entregable', () => {

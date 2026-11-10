@@ -103,11 +103,22 @@
   /**
    * Arma el texto que llega al WhatsApp de Sofía. Corto y ordenado: el mensaje lo
    * lee una persona en el celular, no un parser.
+   *
+   * La PRIMERA línea es la etiqueta: es lo único que se ve en la lista de chats,
+   * antes de abrir la conversación. Así ella sabe de qué servicio viene cada
+   * persona sin leer nada y sin ninguna API de por medio.
    */
   function buildLeadMessage(datos, servicios) {
     var d = datos || {};
+    var elegido = null;
+    var lista = servicios || SERVICIOS;
+    for (var i = 0; i < lista.length; i += 1) {
+      if (lista[i].value === d.interes) elegido = lista[i];
+    }
+    var etiqueta = 'Consulta web' + (elegido ? ' · ' + elegido.corto : '');
+
     var lineas = [
-      'Consulta desde el sitio web',
+      etiqueta,
       '',
       'Nombre: ' + String(d.nombre || '').trim(),
       'WhatsApp: ' + String(d.whatsapp || '').trim(),
