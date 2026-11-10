@@ -80,6 +80,53 @@ exit 0 — los PDFs se escribieron porque la fase 1 quedó entera en verde
 | Propuesta | https://lisandrocacciatore.github.io/LeadSofia/propuesta/ |
 | Informe | https://lisandrocacciatore.github.io/LeadSofia/informe/ |
 
+---
+
+## 7 · Ciclo de captación de consultas (agregado el 2026-11-10)
+
+Hasta esta fecha el sitio **no capturaba nada**: los 12 enlaces abrían WhatsApp con un texto
+fijo, así que si la persona no apretaba enviar no quedaba ni el nombre ni el servicio que
+estaba mirando. Se agregó el mismo patrón que la landing del Estudio Segovia, adaptado a este
+sitio estático.
+
+**Cómo funciona**
+
+```
+tarjeta de servicio o programa  →  #consulta (preselecciona el interés)
+                                →  formulario (nombre, WhatsApp, mail, interés, mensaje, consentimiento)
+                                →  WhatsApp de Sofía con el mensaje ya armado
+                                →  o POST JSON si hay endpoint configurado
+```
+
+**Qué se agregó**
+
+| Archivo | Qué es |
+|---|---|
+| `02-sitio/assets/lead-capture.js` | Catálogo de servicios, armado del mensaje, validación, atribución y enganche del formulario. Sin dependencias, sin cookies. |
+| `02-sitio/index.html` | Formulario en `#reserva`, CTA en cada servicio y programa, sección `#privacidad`. |
+| `tests/lead-capture.test.mjs` | 20 tests (lógica + contrato del HTML). `npm test` |
+| `tests/e2e-captura.py` | 18 comprobaciones en Chrome real. `npm run e2e` |
+| `00-auditoria/remedicion-2026-11/` | Remedición de Instagram + informe de auditoría del 2026-11-10. |
+
+**Para recibir las consultas por API en vez de WhatsApp** (n8n, Formspree, Resend): pegar la
+URL en `<meta name="lead-endpoint" content="https://…">` del `<head>`. El formulario pasa a
+hacer `POST` JSON con `{nombre, whatsapp, email, interes, interesLabel, mensaje, consent, origen,
+utm, referrer, pagina, enviado}` y cambia el mensaje de éxito. No hay que tocar nada más.
+
+**Verificado**
+
+```
+node --test tests/lead-capture.test.mjs    →  20/20
+python tests/e2e-captura.py                →  18/18 (abre WhatsApp real con el mensaje correcto)
+python scripts/generar-sitio.py verificar  →  17/18  (C17 pasó a verde: 7 labels / 7 campos)
+bash scripts/verificar-todo.sh             →   6/6, exit 0
+```
+
+**Un detalle de mantenimiento:** el formulario usa clases propias (`.lf-*`) y no utilitarias de
+Tailwind. No es capricho: `sm:grid-cols-3`, `py-20` y `mt-16` **no están** en el
+`assets/tailwind.css` compilado (el build las purgó), así que un formulario escrito con esas
+clases se vería roto sin ningún error visible en consola.
+
 Repo: https://github.com/LisandroCacciatore/LeadSofia (público). Las 4 rutas responden `200` y van
 con `noindex, nofollow` + `robots.txt: Disallow: /` mientras sea maqueta. Los PDF
 (`informe-sofia-strafile.pdf`, `propuesta-sofia-strafile.pdf`) quedan versionados en el repo.

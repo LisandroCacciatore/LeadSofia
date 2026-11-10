@@ -203,6 +203,66 @@
 </style>
 <link rel="stylesheet" href="assets/tailwind.css" />
 
+<!-- Ciclo de captación de consultas ────────────────────────────────────────────
+     lead-endpoint VACÍO = la consulta sale por WhatsApp con el mensaje ya armado
+     (canal real de Sofía). Para recibirla por API (n8n / Formspree / Resend) se
+     pega la URL acá y el formulario hace POST JSON. Ver assets/lead-capture.js. -->
+<meta name="lead-endpoint" content="" />
+<meta name="lead-whatsapp" content="5493416153151" />
+<style>
+/* Estilos propios del formulario: no dependen de clases utilitarias que el build
+   de Tailwind podría no estar emitiendo, así el form se ve igual tras recompilar. */
+.lf-form { display: grid; gap: .85rem; margin-top: 1.5rem; }
+.lf-row { display: grid; gap: .85rem; grid-template-columns: 1fr 1fr; }
+@media (max-width: 560px) { .lf-row { grid-template-columns: 1fr; } }
+.lf-field { display: flex; flex-direction: column; gap: .35rem; }
+.lf-label { font-size: .66rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #6e7278; }
+.lf-input, .lf-select, .lf-textarea {
+  width: 100%; font-family: inherit; font-size: .875rem; font-weight: 300;
+  color: #1F3A5F; background: #fff; border: 1px solid #e6e8eb; border-radius: 0;
+  padding: .7rem .8rem; transition: border-color .2s, box-shadow .2s; -webkit-appearance: none; appearance: none;
+}
+.lf-select { background-image: linear-gradient(45deg, transparent 50%, #1F3A5F 50%), linear-gradient(135deg, #1F3A5F 50%, transparent 50%);
+  background-position: calc(100% - 18px) 51%, calc(100% - 13px) 51%; background-size: 5px 5px, 5px 5px; background-repeat: no-repeat; padding-right: 2.2rem; }
+.lf-textarea { resize: vertical; min-height: 5rem; }
+.lf-input::placeholder, .lf-textarea::placeholder { color: #a8adb5; }
+.lf-input:focus, .lf-select:focus, .lf-textarea:focus { outline: none; border-color: #BC204B; box-shadow: 0 0 0 1px #BC204B; }
+.lf-consent { display: flex; gap: .6rem; align-items: flex-start; font-size: .74rem; line-height: 1.55; color: #6e7278; font-weight: 300; cursor: pointer; }
+.lf-consent input { margin-top: .15rem; width: 1rem; height: 1rem; flex: 0 0 auto; accent-color: #BC204B; }
+.lf-consent a { color: #1F3A5F; text-decoration: underline; }
+.lf-submit { width: 100%; border: 0; cursor: pointer; padding: 1rem; font-family: inherit; font-size: .72rem;
+  font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: #fff; background: #1F3A5F;
+  transition: background .2s, opacity .2s; }
+.lf-submit:hover:not(:disabled) { background: #BC204B; }
+.lf-submit:disabled { opacity: .45; cursor: not-allowed; }
+.lf-status { margin-top: .9rem; font-size: .78rem; font-weight: 300; line-height: 1.6; padding: .8rem .9rem; display: none; }
+.lf-status[data-state="ok"] { display: block; background: #eef2f7; color: #1F3A5F; border-left: 3px solid #BC204B; }
+.lf-status[data-state="error"] { display: block; background: #fbebf0; color: #791431; border-left: 3px solid #BC204B; }
+.lf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.lf-note { font-size: .72rem; font-weight: 300; line-height: 1.6; color: #8A8F96; margin-top: .75rem; }
+.lf-note a { text-decoration: underline; }
+.lf-direct { margin-top: 4rem; padding-top: 2.5rem; border-top: 1px solid #e6e8eb; }
+.lf-direct-title { font-size: .8rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: #BC204B; margin-bottom: 1.5rem; text-align: center; }
+.lf-direct-grid { display: grid; gap: 1rem; grid-template-columns: 1fr; max-width: 48rem; margin: 0 auto; }
+@media (min-width: 640px) { .lf-direct-grid { grid-template-columns: 1fr 1fr 1fr; } }
+.lf-direct-grid > a { display: flex; align-items: center; justify-content: center; min-height: 3.5rem; padding: .6rem .8rem; }
+.lf-privacy h2 { margin-bottom: 1rem; }
+.lf-privacy p + p { margin-top: 1rem; }
+.dark .lf-direct { border-top-color: #37393c; }
+.dark .lf-note { color: #a8adb5; }
+.lf-service-cta { display: inline-block; margin-top: 1.25rem; font-size: .7rem; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: #1F3A5F; border-bottom: 2px solid #BC204B; padding-bottom: .25rem; }
+.lf-service-cta:hover { color: #BC204B; }
+.dark .lf-input, .dark .lf-select, .dark .lf-textarea { background: #152840; border-color: #37393c; color: #fff; }
+.dark .lf-select { background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%); }
+.dark .lf-label, .dark .lf-consent { color: #a8adb5; }
+.dark .lf-consent a { color: #fff; }
+.dark .lf-submit { background: #fff; color: #1F3A5F; }
+.dark .lf-submit:hover:not(:disabled) { background: #BC204B; color: #fff; }
+.dark .lf-status[data-state="ok"] { background: #152840; color: #fff; }
+.dark .lf-service-cta { color: #fff; }
+</style>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -422,6 +482,7 @@
             Descubrí tu paleta de colores ideal. Analizamos tu temperatura, valor, intensidad y contraste
             para encontrar los tonos que potencian tu presencia natural.
           </p>
+          <a href="#consulta" class="lf-service-cta" data-lead-servicio="colorimetria">Consultar por colorimetría</a>
         </div>
       </div>
 
@@ -436,6 +497,7 @@
             Compras inteligentes sin tiempo perdido. Te acompaño a elegir las prendas que realmente
             necesitás, combinables y estratégicas para tu día a día profesional.
           </p>
+          <a href="#consulta" class="lf-service-cta" data-lead-servicio="asesoria">Consultar por la asesoría 1:1</a>
         </div>
       </div>
 
@@ -450,6 +512,7 @@
             Combinaciones reales probadas en tu cuerpo. Un sistema de outfits que te saca de la duda cada
             mañana y te devuelve la seguridad frente al espejo.
           </p>
+          <a href="#consulta" class="lf-service-cta" data-lead-servicio="guardarropa">Consultar por el guardarropa</a>
         </div>
       </div>
     </div>
@@ -533,7 +596,7 @@
           <li class="flex items-start gap-3"><span class="block w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" aria-hidden="true"></span>3 looks base con recomendaciones</li>
           <li class="flex items-start gap-3"><span class="block w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" aria-hidden="true"></span>Guía "5 reglas que cambian todo"</li>
         </ul>
-        <a href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Me%20interesa%20el%20programa%20Arranque"
+        <a href="#consulta" data-lead-servicio="programa-arranque"
           class="block w-full border-b-2 border-primary dark:border-white pb-2 text-center text-sm font-bold uppercase tracking-widest hover:text-accent hover:border-accent transition-colors">
           Agendar mi diagnóstico</a>
       </div>
@@ -549,7 +612,7 @@
           <li class="flex items-start gap-3"><span class="material-icons text-accent text-base mt-[-2px] flex-shrink-0" aria-hidden="true">done</span>Lista de tiendas seleccionadas</li>
           <li class="flex items-start gap-3"><span class="material-icons text-accent text-base mt-[-2px] flex-shrink-0" aria-hidden="true">done</span>Seguimiento por WhatsApp 14 días</li>
         </ul>
-        <a href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Me%20interesa%20el%20programa%20Renovaci%C3%B3n"
+        <a href="#consulta" data-lead-servicio="programa-renovacion"
           class="block w-full bg-primary text-white dark:bg-white dark:text-primary py-4 text-center text-sm font-bold uppercase tracking-widest hover:bg-primary/90 dark:hover:bg-slate-100 transition shadow-lg">
           Reservar Renovación</a>
       </div>
@@ -562,7 +625,7 @@
           <li class="flex items-start gap-3"><span class="block w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" aria-hidden="true"></span>Acompañamiento en compras + cápsula de 30 prendas</li>
           <li class="flex items-start gap-3"><span class="block w-1.5 h-1.5 rounded-full bg-accent mt-1.5 flex-shrink-0" aria-hidden="true"></span>Coaching en video</li>
         </ul>
-        <a href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Me%20interesa%20el%20programa%20Transformaci%C3%B3n"
+        <a href="#consulta" data-lead-servicio="programa-transformacion"
           class="block w-full border-b-2 border-primary dark:border-white pb-2 text-center text-sm font-bold uppercase tracking-widest hover:text-accent hover:border-accent transition-colors">
           Consultar disponibilidad</a>
       </div>
@@ -694,7 +757,7 @@
         </p>
         <p class="text-slate-600 dark:text-slate-400 font-light mb-8 leading-relaxed">
           Trabajo con un número limitado de clientes por mes para garantizar atención personalizada.
-          Escribime por WhatsApp y coordinamos.
+          Dejame tus datos en el formulario y te escribo por WhatsApp para coordinar día y horario.
         </p>
         <div class="flex flex-col space-y-5">
           <a class="flex items-center gap-4 text-sm font-light text-slate-600 dark:text-slate-300 hover:text-accent transition"
@@ -716,27 +779,135 @@
       </div>
 
       <div class="reveal reveal-delay-1 bg-white dark:bg-surface-dark p-8 border border-slate-100 dark:border-slate-800 shadow-lg">
-        <h3 class="text-xl font-display text-primary dark:text-white mb-2">Elegí por dónde empezar</h3>
-        <p class="text-sm text-slate-600 dark:text-slate-400 font-light mb-6 leading-relaxed">
-          Estos son los dos programas que ya tengo publicados. El mensaje se abre con el texto listo:
-          sólo apretá enviar.
+        <h3 id="consulta" class="text-xl font-display text-primary dark:text-white mb-2">Contame qué necesitás</h3>
+        <p class="text-sm text-slate-600 dark:text-slate-400 font-light leading-relaxed">
+          Completá el formulario y te escribo por WhatsApp. El mensaje sale con tus datos ya ordenados,
+          así no tenés que explicar todo de nuevo.
         </p>
-        <div class="space-y-4">
-          <a class="block w-full text-center bg-primary text-white py-4 text-xs font-bold uppercase tracking-widest hover:bg-primary/90 transition shadow-lg"
-            href="https://wa.me/p/23924291647213034/5493416153151" target="_blank" rel="noopener">
-            Programa 1:1 · Asesoría de imagen</a>
-          <a class="block w-full text-center border-2 border-primary text-primary dark:border-white dark:text-white py-4 text-xs font-bold uppercase tracking-widest hover:bg-primary/5 dark:hover:bg-white/5 transition"
-            href="https://wa.me/p/25673960648860647/5493416153151" target="_blank" rel="noopener">
-            Colorimetría 1:1</a>
-          <a class="block w-full text-center border-b-2 border-accent pb-2 text-xs font-bold uppercase tracking-widest text-primary dark:text-white hover:text-accent transition-colors"
-            href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Tengo%20una%20consulta%20sobre%20la%20asesor%C3%ADa"
-            target="_blank" rel="noopener">
-            Tengo una consulta</a>
-        </div>
-        <p class="text-[11px] texto-tenue font-light leading-relaxed mt-6">
-          Coordinamos directamente por WhatsApp. No dejo tus datos en ninguna lista.
-        </p>
+
+        <form id="lead-form" class="lf-form" novalidate>
+          <div class="lf-row">
+            <div class="lf-field">
+              <label class="lf-label" for="lf-nombre">Nombre y apellido *</label>
+              <input class="lf-input" id="lf-nombre" name="nombre" type="text" required autocomplete="name"
+                placeholder="Ej. Marina Gómez" />
+            </div>
+            <div class="lf-field">
+              <label class="lf-label" for="lf-whatsapp">WhatsApp *</label>
+              <input class="lf-input" id="lf-whatsapp" name="whatsapp" type="tel" inputmode="tel" required
+                autocomplete="tel" placeholder="Ej. 341 555 1234" />
+            </div>
+          </div>
+
+          <div class="lf-field">
+            <label class="lf-label" for="lf-email">Email (opcional)</label>
+            <input class="lf-input" id="lf-email" name="email" type="email" autocomplete="email"
+              placeholder="tu@correo.com" />
+          </div>
+
+          <div class="lf-field">
+            <label class="lf-label" for="lf-interes">Qué te interesa *</label>
+            <select class="lf-select" id="lf-interes" name="interes" required>
+              <optgroup label="Servicios">
+                <option value="colorimetria">Análisis de colorimetría</option>
+                <option value="asesoria">Asesoría de imagen 1:1</option>
+                <option value="guardarropa">Armado de guardarropa</option>
+              </optgroup>
+              <optgroup label="Programas">
+                <option value="programa-arranque">Programa Arranque (1 sesión + 3 looks)</option>
+                <option value="programa-renovacion">Programa Renovación (10 looks + 14 días)</option>
+                <option value="programa-transformacion">Programa Transformación (setup + 2 sesiones)</option>
+              </optgroup>
+              <option value="orientacion">Todavía no sé: quiero orientación</option>
+            </select>
+          </div>
+
+          <div class="lf-field">
+            <label class="lf-label" for="lf-mensaje">Contame un poco más</label>
+            <textarea class="lf-textarea" id="lf-mensaje" name="mensaje" rows="3"
+              placeholder="Qué te gustaría resolver, si ya hiciste colorimetría antes, para qué ocasión lo necesitás…"></textarea>
+          </div>
+
+          <!-- Honeypot: invisible para las personas, tentador para los bots -->
+          <div class="lf-hp" aria-hidden="true">
+            <label for="lf-empresa">No completar este campo</label>
+            <input id="lf-empresa" name="empresa" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <label class="lf-consent" for="lf-consent">
+            <input id="lf-consent" name="consent" type="checkbox" required />
+            <span>
+              Autorizo a Sofía Strafile a usar mis datos para responder esta consulta, conforme a la
+              Ley 25.326. <a href="#privacidad">Ver cómo los trato</a>.
+            </span>
+          </label>
+
+          <button class="lf-submit" type="submit" disabled>Quiero que me escribas</button>
+          <p class="lf-status" id="lead-status" role="status" aria-live="polite"></p>
+          <noscript>
+            <p class="lf-note">
+              El formulario necesita JavaScript. Escribime directo por
+              <a href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Quiero%20coordinar%20una%20asesor%C3%ADa"
+                target="_blank" rel="noopener">WhatsApp: +54 9 341 615-3151</a>.
+            </p>
+          </noscript>
+        </form>
       </div>
+    </div>
+
+    <!-- Atajo: el canal que Sofía ya usa, sin pasar por el formulario -->
+    <div class="lf-direct reveal">
+      <p class="lf-direct-title">O escribime directo</p>
+      <div class="lf-direct-grid">
+        <a class="block w-full text-center bg-primary text-white py-4 text-xs font-bold uppercase tracking-widest hover:bg-primary/90 transition shadow-lg"
+          href="https://wa.me/p/23924291647213034/5493416153151" target="_blank" rel="noopener">
+          Programa 1:1 · Asesoría de imagen</a>
+        <a class="block w-full text-center border-2 border-primary text-primary dark:border-white dark:text-white py-4 text-xs font-bold uppercase tracking-widest hover:bg-primary/5 dark:hover:bg-white/5 transition"
+          href="https://wa.me/p/25673960648860647/5493416153151" target="_blank" rel="noopener">
+          Colorimetría 1:1</a>
+        <a class="block w-full text-center border-b-2 border-accent pb-2 text-xs font-bold uppercase tracking-widest text-primary dark:text-white hover:text-accent transition-colors"
+          href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Tengo%20una%20consulta%20sobre%20la%20asesor%C3%ADa"
+          target="_blank" rel="noopener">
+          Tengo una consulta</a>
+      </div>
+      <p class="lf-note" style="text-align:center">
+        Coordinamos directamente por WhatsApp. Los valores de cada programa se ven por ahí, según lo que necesites.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- 10.b Cómo trato tus datos (obligatorio si hay formulario) -->
+<section id="privacidad" class="py-24 bg-background-paper dark:bg-surface-dark border-t border-slate-200 dark:border-slate-800 lf-privacy">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-sm font-bold text-accent uppercase tracking-widest">Cómo trato tus datos</h2>
+    <div class="text-sm text-slate-600 dark:text-slate-400 font-light leading-relaxed">
+      <p>
+        <strong class="font-semibold text-primary dark:text-white">Quién los recibe.</strong>
+        Sofía Strafile, asesora de imagen y colorimetría, atención online desde Argentina.
+      </p>
+      <p>
+        <strong class="font-semibold text-primary dark:text-white">Qué datos.</strong>
+        Nombre, WhatsApp, email si lo dejás, el servicio o programa que te interesa y lo que me escribas
+        en el formulario.
+      </p>
+      <p>
+        <strong class="font-semibold text-primary dark:text-white">Para qué.</strong>
+        Sólo para responder tu consulta y coordinar la sesión. No se usan para otra cosa, no se arman
+        listas de correo y no se comparten ni se venden a terceros.
+      </p>
+      <p>
+        <strong class="font-semibold text-primary dark:text-white">Por dónde viajan.</strong>
+        El formulario abre WhatsApp con tu consulta ya escrita: el mensaje queda en esa conversación, con
+        las mismas condiciones de privacidad de WhatsApp. Este sitio no usa cookies ni analítica de terceros.
+      </p>
+      <p>
+        <strong class="font-semibold text-primary dark:text-white">Tus derechos.</strong>
+        Podés pedir acceso, corrección o eliminación de tus datos escribiendo al
+        <a class="underline hover:text-accent transition-colors" href="https://wa.me/5493416153151?text=Hola%20Sofia!%20Quiero%20consultar%20por%20mis%20datos"
+          target="_blank" rel="noopener">WhatsApp +54 9 341 615-3151</a>.
+        Ley 25.326 de Protección de los Datos Personales; autoridad de aplicación: AAIP.
+      </p>
     </div>
   </div>
 </section>
@@ -775,7 +946,9 @@
   </div>
   <div class="max-w-7xl mx-auto px-6 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
     <p>© 2026 Sofía Strafile · Atención online desde Argentina.</p>
-    <p class="text-white/40">Sitio sin cookies ni rastreadores de terceros.</p>
+    <p class="text-white/40">Sitio sin cookies ni rastreadores de terceros ·
+      <a class="underline hover:text-accent transition-colors" href="#privacidad">Cómo trato tus datos</a>
+    </p>
   </div>
 </footer>
 
@@ -787,6 +960,10 @@
     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
   </svg>
 </a>
+
+<!-- Ciclo de captación de consultas: arma el mensaje y abre WhatsApp (o hace POST
+     al endpoint declarado en el <meta name="lead-endpoint">). -->
+<script src="assets/lead-capture.js" defer></script>
 
 <script>
   // Aparición al hacer scroll

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test tests/lead-capture.test.mjs",
+    "e2e": "python tests/e2e-captura.py",
+    "verificar": "python scripts/generar-sitio.py verificar"
   },
   "keywords": [],
   "author": "",
